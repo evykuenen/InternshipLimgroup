@@ -1,0 +1,1351 @@
+Date: Tue, 23 Jan 2024 08:43:27 +0000 (UTC)
+Message-ID: <1236412915.7.1705999407881@c40d98d96d17>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_6_285964402.1705999407881"
+
+------=_Part_6_285964402.1705999407881
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Logboek Oktober</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Logboek Oktober</h1>
+    <div class=3D"Section1">
+        <div id=3D"expander-1435183382" class=3D"expand-container">
+<div id=3D"expander-control-1435183382" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"4c016ec99308c2906394c6fdeb6cc87b" widt=
+h=3D"16" height=3D"16"></span><span class=3D"expand-control-text">week 1</s=
+pan>
+</div>
+<div id=3D"expander-content-1435183382" class=3D"expand-content">
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"57bb8c9e-2ed0-4904-a227-c4d=
+28a431809" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 73.0px;">
+<col style=3D"width: 59.0px;">
+<col style=3D"width: 313.0px;">
+<col style=3D"width: 93.0px;">
+<col style=3D"width: 192.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p><strong>6</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Datum</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan project:</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan verslagen:</strong></p></t=
+h>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan research:</strong></p></th=
+>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>2-10-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>mummer runnen georienteerde scaffolds</p></li>
+<li><p>script aanpassen omdat hij scaffolds eruit filtert (script klopte in=
+putbestand niet)</p></li>
+<li><p>mummer opnieuw </p></li>
+<li><p>logboek opzet voor andere weken gemaakt</p></li>
+<li><p>vanuit orderedScaffoldWithorientation.agp fasta gemaakt voor mummer<=
+/p></li>
+<li><p>snuffelstage regelen</p></li>
+<li><p>ragtag opnieuw draaien om fasta daaruit tegen scaffolds te kunnen ma=
+ppen</p></li>
+<li><p>ragtag tegen scaffolds in juiste volgorde en orientatie scaffoldsRig=
+htOrientationAndOrder.fa mappen mummer</p></li>
+<li><p>agp gemaakt vanuit mapping info om fasta van te maken met juiste vol=
+gorde en orientatie</p></li>
+<li><p>agp naar fasta</p></li>
+<li><p>mitochondrien opnieuw in agp zetten met niet gefilterde delta bij mi=
+tochondrien mapinfo gebruiken en niet tiling voor orientatie</p></li>
+<li><p>fout in code fixen die agp maakt voor contigs op scaffolds waar meer=
+dere keren zelfde scaffold in voor kwam</p></li>
+<li><p>mummer op orderdorientatedscaffolds.fa</p></li>
+<li><p>geordende mitochondrien uit agp naar fasta zetten</p></li>
+<li><p>ordenen mitochondrien</p></li>
+<li><p>Hernoem in je agp de naam van jou nieuwe assembly naar "AsparasgusV2=
+_mitochnodria" ipv "NC_53642.1</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>3-10-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>dubbele uit agp van mitochondrien gehaald</p></li>
+<li><p>plotten mitochondrien</p></li>
+<li><p>orientatie mitochondrien goed maken</p></li>
+<li><p>nieuw agp gemaakt met alleen scaffolds die niet in de mitochondrien =
+voorkomen om gap te vinden</p></li>
+<li><p>alle scaffolds plotten tegen mitochondrien met ordered en oriented s=
+caffolds boven</p></li>
+<li><p>qualiteits controle fastqc op /home/student/projects/asp-pan-genome-=
+evy/data/PacBio/WGS/original_ref/all_pacbio.bam</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>4-10-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>plotten alle scaffolds tegen mitochondrien</p></li>
+<li><p>script python aanpassen om alle mappende reads op mitochondrien te m=
+appen en met te kleine coverage eruit te filteren</p></li>
+<li><p>nieuw fasta maken met alle mappende scaffolds</p></li>
+<li><p>fasta met alle mappende scaffolds plotten tegen mitochondrien genoom=
+</p></li>
+<li><p>ragtag tegen scaffolds op juiste volgorde plotten</p></li>
+<li><p>ragtag tegen scaffolds opnieuw mappen</p></li>
+<li><p>huidig refseq van bam naar fastq voor flye</p></li>
+<li><p>flye runnen huidig refseq</p></li>
+<li><p>orientatie scaffolds nieuw genoom goed proberen te krijgen</p></li>
+<li><p>dubbele headers uit fastascaffoldsordened.fa halen om hiermee opnieu=
+w te plotten om te kijken voor de rechte lijn en dan de orientatie te bepal=
+en</p></li>
+<li><p>code voor orientatie omschrijven dat het eerst een agp maakt voordat=
+ het de orientatie bepaald en fastas ophaalt</p></li>
+<li><p>fasta van agp maken en plotten tegen merkers fasta</p></li>
+<li><p>verbeteren flowchart voor voortgangsgesprek</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>5-10-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>uitzoeken waarom er minder gemapt is nu de goede orientatie er is</p=
+></li>
+<li><p>script maken die niet alleen match lengte erin zet maar hele sequent=
+ie</p></li>
+<li><p>agp naar fasta en mummer erop runnen</p></li>
+<li><p>flye opnieuw runnen</p></li>
+<li><p>fasta maken ragtag scaffolds</p></li>
+<li><p>ragtag scaffolds mappen tegen scaffolds op volgorde</p></li>
+<li><p>/home/student/projects/asp-pan-genome-evy/data/02_deNovoAssembly/sup=
+erScaffolds/makeAGPwithscaffoldsInOrder/getScaffoldOrder.py consolideer</p>=
+</li>
+<li><p>unplaced in agp veranderen zodat ze een sequentie hebben in /home/st=
+udent/projects/asp-pan-genome-evy/data/genome/02_deNovoAssembly/superScaffo=
+lds/makeAGPwithscaffoldsInOrder/orderedScaffoldWithOrientation.agp</p></li>
+<li><p>fasta van agp gemaakt en mummer op gerunt</p></li>
+<li><p>dubbele uit agp gehaald zodat niet eerste scaffold orientatie gebrui=
+kt wordt maar van langste</p></li>
+<li><p>mitochondrien alle scaffolds opnieuw mappen</p></li>
+<li><p>alle contigs tegen mitochondrien mappen</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>onderzoek waarom flye niet werkt</p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>6-10-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>contigs gemaakt pacBio reads oud genoom flye</p></li>
+<li><p>uitzoeken hoe ik contig bestand juist kan maken sommige contig namen=
+ staan er meerdere keren in</p></li>
+<li><p>presentatie aanpassen</p></li>
+<li><p>alleen contigs die in mitochondrien zitten mappen op mitochondrien</=
+p></li>
+<li><p>alle contigs mappen op mitochondrien</p></li>
+<li><p>alle contigs die mappen van alle contigs plotten</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>waarom matepair reads <a class=3D"external-link" data-card-appearanc=
+e=3D"inline" href=3D"https://www.ecseq.com/support/ngs/what-is-mate-pair-se=
+quencing-useful-for" rel=3D"nofollow">https://www.ecseq.com/support/ngs/wha=
+t-is-mate-pair-sequencing-useful-for</a> </p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id=3D"expander-1760221696" class=3D"expand-container">
+<div id=3D"expander-control-1760221696" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"4c016ec99308c2906394c6fdeb6cc87b" widt=
+h=3D"16" height=3D"16"></span><span class=3D"expand-control-text">week 2</s=
+pan>
+</div>
+<div id=3D"expander-content-1760221696" class=3D"expand-content">
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"9034c3db-8a36-4c27-8263-bec=
+6e2dfcbce" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 73.0px;">
+<col style=3D"width: 59.0px;">
+<col style=3D"width: 313.0px;">
+<col style=3D"width: 93.0px;">
+<col style=3D"width: 192.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p><strong>7</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Datum</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan project:</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan verslagen:</strong></p></t=
+h>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan research:</strong></p></th=
+>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>9-10-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>python script aangepast zodat hij alleen de langste contig pakt als =
+2 volledig overlappen eerst 84 contigs voor agp na code 69</p></li>
+<li><p>agp naar fasta en met mummer plotten</p></li>
+<li><p>script aanpassen omdat ik alleen de kleine krijg en niet de grote co=
+ntigs</p></li>
+<li><p>script aanpassen zodat minimaal 1 procent van de query sequentie moe=
+t matchen</p></li>
+<li><p>downloaden mitochondrien sequentie ui </p></li>
+<li><p>ui mappen tegen mitochondrien</p></li>
+<li><p>kokosnoot mappen tegen mitochondrien</p></li>
+<li><p>Juncus mappen tegen mitochondrien</p></li>
+<li><p>alle contigs tegen markers mappen</p></li>
+<li><p>script aanpassen voor contigs juiste orientatie en filteren</p></li>
+<li><p>maken van mitochondrial assembly.md</p></li>
+<li><p>markers tegen contigs mappen </p></li>
+<li><p>script voor volgorde gemaakt</p></li>
+<li><p>mappen van alle contigs tegen chloroplast</p></li>
+<li><p>volgorde contigs op merkers krijgen door gemapte merkers op contigs =
+in getOrderedContigs.py te doen</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>hoe mitochondrien vorige keer is gemaakt <a class=3D"external-link" =
+data-card-appearance=3D"inline" href=3D"https://www.frontiersin.org/article=
+s/10.3389/fpls.2023.1140043/full" rel=3D"nofollow">https://www.frontiersin.=
+org/articles/10.3389/fpls.2023.1140043/full</a> </p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>10-10-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>plotten van <code>ContigsOrderedFilteredToMarkers</code> </p></li>
+<li><p>presentatie nakijken voor stagebezoek</p></li>
+<li><p>notulen schrijven</p></li>
+<li><p>tussentijdse beoordeling doorsturen</p></li>
+<li><p>verbeten stage pop</p></li>
+<li><p>juiste orientatie genoom python script</p></li>
+<li><p>juiste orientatie en gefiltered mappen tegen merkers</p></li>
+<li><p>python script aanpassen zodat contigs op meerdere merkers kunnen map=
+pen door niet alleen match in agp te zetten maar hele contig.</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>11-10-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>plotten van genoom die op meerdere merkers zou moeten mappen </p></l=
+i>
+<li><p>presentatie aanpassen stageterugkomdag</p></li>
+<li><p>flowchart opnieuw maken en mitochondrien en chloroplast in verwerken=
+</p></li>
+<li><p>presentatie stageterugkomdag insturen </p></li>
+<li><p>uitzoeken in python script waarom contigs niet over meerdere markers=
+ gaan ook al heb ik nu de hele contig in de fasta staan (in de loop van bes=
+t scaffolds geen contigs die bij meerdere MPDI=E2=80=99s voorkomen MPDI was=
+ key in plaats van contig )</p></li>
+<li><p>opnieuw agp maken van alle beste contigs</p></li>
+<li><p>agp naar fasta zetten </p></li>
+<li><p>opnieuw contigs die nu over meerdere markers liggen plotten</p></li>
+<li><p>uitzoeken waarom plot een boog wordt (komt omdat nu alle contigs map=
+pen)</p></li>
+<li><p> opnieuw kijken hoe ik over meerder merkers heen kan mappen</p></li>
+<li><p>install dependencies genome verder ingevuld</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>hele verslag doorlezen</p></li>
+<li><p>stuk schrijven hoe merkervolgorde is bepaald en alle kopjes aanvulle=
+n</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>12-10-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>python script herschrijven zodat niet alle contigs erin komen en con=
+tig over meerdere markers kan</p></li>
+<li><p>python script runnen , agp naar fasta en plotten</p></li>
+<li><p>mappen van alle contigs van originele referentie tegen referentiegen=
+oom</p></li>
+<li><p>hardcoded in python script contig10 uit chloroplast halen</p></li>
+<li><p>unplaced contigs in agp erbij contigs tegen genoom</p></li>
+<li><p>alle contigs huidig refseq tegen huidigrefseq aan mappen</p></li>
+<li><p>commands_MUMmer.md verder uitsplitsen</p></li>
+<li><p>alle geordende gefilterde contigs tegen merkers aan mappen</p></li>
+<li><p>mappen contigs met unplaced contigs genoom tegen refseq voor volgord=
+e unplaced</p></li>
+<li><p>stagebegeleider mailen met vragen portfolio</p></li>
+<li><p>wtdbg2 nog een keer runnen</p></li>
+<li><p>to do lijst organiseren</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>stuk vergelijking resultaten schrijven verslag tussen oude contigs o=
+p merkers en nieuwe contigs op merkers</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>uitzoeken wat GeSeq is <a class=3D"external-link" data-card-appearan=
+ce=3D"inline" href=3D"https://chlorobox.mpimp-golm.mpg.de/geseq.html" rel=
+=3D"nofollow">https://chlorobox.mpimp-golm.mpg.de/geseq.html</a> <a class=
+=3D"external-link" href=3D"https://academic.oup.com/nar/article/45/W1/W6/38=
+06659" rel=3D"nofollow">https://academic.oup.com/nar/article/45/W1/W6/38066=
+59</a> (annoteerd chloroplast)</p></li>
+<li><p>Mitofy annoteren planten mitochondrien <a class=3D"external-link" hr=
+ef=3D"https://dogma.ccbb.utexas.edu/mitofy/README.pdf" rel=3D"nofollow">htt=
+ps://dogma.ccbb.utexas.edu/mitofy/README.pdf</a></p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>13-10-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>stap in mitochondrial assembly aan elkaar maken dus geen aparte cont=
+igs in python script aangepast</p></li>
+<li><p>mitochondrien map ordenen in map zetten wat van scaffolds is</p></li=
+>
+<li><p>agp gemaakt met alle gaps en juiste coordinaten python script</p></l=
+i>
+<li><p>plotten newrefseqmitochondrien tegen oldrefseq mitochondrien</p></li=
+>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id=3D"expander-1649066716" class=3D"expand-container">
+<div id=3D"expander-control-1649066716" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"4c016ec99308c2906394c6fdeb6cc87b" widt=
+h=3D"16" height=3D"16"></span><span class=3D"expand-control-text">week 3 va=
+kantie</span>
+</div>
+<div id=3D"expander-content-1649066716" class=3D"expand-content">
+<ul>
+<li><p>gaps tussen mitochondrien zetten als gap 0 of lager is wordt gap 1 i=
+n agp als hij groter is wordt die lengte erin gezet. AGP staat op /home/stu=
+dent/projects/asp-pan-genome-evy/data/mitochondrien/contigsToMitochondrien/=
+NewRefVsOldRef/orderedContigsWithOrientationMitochondrienRefSeqNoDoubles.re=
+indexed.agp</p><span class=3D"confluence-embedded-file-wrapper image-center=
+-wrapper confluence-embedded-manual-size"><img class=3D"confluence-embedded=
+-image image-center" width=3D"468" loading=3D"lazy" src=3D"4bf4dfbba6305817=
+e5cecd0734f038b1" data-image-src=3D"https://limgroup.atlassian.net/wiki/dow=
+nload/attachments/91029507/afbeelding-20231017-140753.png?version=3D1&amp;m=
+odificationDate=3D1697551639065&amp;cacheVersion=3D1&amp;api=3Dv2" data-hei=
+ght=3D"448" data-width=3D"634" data-unresolved-comment-count=3D"0" data-lin=
+ked-resource-id=3D"102563848" data-linked-resource-version=3D"1" data-linke=
+d-resource-type=3D"attachment" data-linked-resource-default-alias=3D"afbeel=
+ding-20231017-140753.png" data-base-url=3D"https://limgroup.atlassian.net/w=
+iki" data-linked-resource-content-type=3D"image/png" data-linked-resource-c=
+ontainer-id=3D"91029507" data-linked-resource-container-version=3D"85" data=
+-media-id=3D"1625c0ff-9517-4f77-a5bf-c358dafd6548" data-media-type=3D"file"=
+ height=3D"330"></span></li>
+<li><p>MITOFY Analysis met default parameters op newrefseqmito.fa resultate=
+n in 1697551740.zip</p></li>
+</ul>
+</div>
+</div>
+<div id=3D"expander-1577656634" class=3D"expand-container">
+<div id=3D"expander-control-1577656634" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"4c016ec99308c2906394c6fdeb6cc87b" widt=
+h=3D"16" height=3D"16"></span><span class=3D"expand-control-text">week 4</s=
+pan>
+</div>
+<div id=3D"expander-content-1577656634" class=3D"expand-content">
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"64b5feb1-cd22-45eb-9d31-56e=
+91815cd4c" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 73.0px;">
+<col style=3D"width: 59.0px;">
+<col style=3D"width: 313.0px;">
+<col style=3D"width: 93.0px;">
+<col style=3D"width: 192.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p><strong>8</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Datum</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan project:</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan verslagen:</strong></p></t=
+h>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan research:</strong></p></th=
+>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>23-10-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>mummer runnen ContigsOrderedFilteredToRefseq</p></li>
+<li><p>maken python script om nieuwe contigs op volgorde te zetten van oude=
+ contigs met juiste orientatie en gefiltered</p></li>
+<li><p>documenteren mitochondrien script en install dependencies mitochondr=
+ien aangevuld</p></li>
+<li><p>GeSeq gebruikt voor annotatie met cocosnoot, ui en juncus effusus va=
+nwege blast resultaten</p></li>
+<li><p>alles klaar maken voor snuffelstage</p></li>
+<li><p>GeSeq opnieuw runnen </p></li>
+<li><p>python script volgorde aanpassen </p></li>
+<li><p>agp naar fasta</p></li>
+<li><p>kijken naar wtdbg2 pipeline en opnieuw runnen </p></li>
+<li><p>uitzoeken hoe het komt dat alles gezipt is ook al zou het niet gezip=
+t moeten zijn</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>in verslag begin maken hoe ik mitochondrien erin ga verwerken</p></l=
+i>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>lezen hoe mitochondrien in ander onderzoek is gecontroleerd<a class=
+=3D"external-link" data-card-appearance=3D"inline" href=3D"https://pubmed.n=
+cbi.nlm.nih.gov/37051082/" rel=3D"nofollow">https://pubmed.ncbi.nlm.nih.gov=
+/37051082/</a><a class=3D"external-link" href=3D"https://www.ncbi.nlm.nih.g=
+ov/pmc/articles/PMC10084930/" rel=3D"nofollow"></a>=E2=86=92 GeSeq, ORF fin=
+der, MISA</p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>24-10-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>fasta plotten mummer</p></li>
+<li><p>python script aanpassen zodat ongeplaatste niet weer worden toegevoe=
+gd met verkeerde orientatie</p></li>
+<li><p>fasta testen of nu minder contigs in zitten </p></li>
+<li><p>mummer opnieuw runnen </p></li>
+<li><p>primers gemaakt asperge mitochondrien controleren waar contig mapt</=
+p></li>
+<li><p>alle contigs die tegen chloroplast aan mappen tegen refseq aan mappe=
+n</p></li>
+<li><p>alle contigs die niet tegen refseq aan mappen maar wel tegen chlorop=
+last opnieuw tegen chloroplast mappen </p></li>
+<li><p>code herschrijven zodat deze soepeler is want bijna niks mapt tegen =
+chloroplast</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>liftover bekijken hoe ik dat ga doen<a class=3D"external-link" data-=
+card-appearance=3D"inline" href=3D"https://github.com/tanghaibao/jcvi/wiki/=
+ALLMAPS:-How-to-lift-over-gene-annotations" rel=3D"nofollow">https://github=
+.com/tanghaibao/jcvi/wiki/ALLMAPS:-How-to-lift-over-gene-annotations</a> <c=
+ode>python -m jcvi.assembly.allmaps build</code></p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>25-10-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>plotten van ContigsOrderedFilteredToRefseqV2</p></li>
+<li><p>script aanpassen genoomvolgorde </p></li>
+<li><p>mummer op nieuwe fasta</p></li>
+<li><p>presentatie stage terugkom dag puntjes op de i zetten en doornemen <=
+/p></li>
+<li><p>script chloroplast soepeler maken nu cutoff bij coverage kleiner dan=
+ 10 </p></li>
+<li><p>agp naar fasta</p></li>
+<li><p>fasta plotten mummer</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>aan verslag werken mitochondrien stuk compleet toevoegen</p></li>
+<li><p>inhoudsopgave toevoegen aan verslag</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>lezen hoe pcr werkt en protecol bekijken hoe uit te voeren <a class=
+=3D"external-link" href=3D"https://www.sigmaaldrich.com/NL/en/technical-doc=
+uments/protocol/genomics/pcr/standard-pcr?gclid=3DCjwKCAjw-eKpBhAbEiwAqFL0m=
+ngtzOFKrd1edCTQ05R8-U3LKBE0Hx4g3JyjF3hf5WtL5Y0YJKjnPBoCc_wQAvD_BwE" rel=3D"=
+nofollow">https://www.sigmaaldrich.com/NL/en/technical-documents/protocol/g=
+enomics/pcr/standard-pcr?gclid=3DCjwKCAjw-eKpBhAbEiwAqFL0mngtzOFKrd1edCTQ05=
+R8-U3LKBE0Hx4g3JyjF3hf5WtL5Y0YJKjnPBoCc_wQAvD_BwE</a></p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>26-1--2023</p></td>
+<td class=3D"confluenceTd"><p>stageterugkomdag op de HAN</p></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>27-10-23</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>volgorde mitochondrien goed zetten in script dat contigs die een bet=
+ere score dan 10 bij coverage hebben op het referentiegenoom niet meenemen<=
+/p></li>
+<li><p>mitochondrien script aanpassen dat alles met 100% coverage erin zit<=
+/p></li>
+<li><p>MPDI 2170 tm 2796 in een een bestand</p></li>
+<li><p>haal alle contigs die op een MPDI in dat bestand vallen en zet ze in=
+ een bestand met python script</p></li>
+<li><p>chloroplast in juiste orientatie zetten</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id=3D"expander-1692938275" class=3D"expand-container">
+<div id=3D"expander-control-1692938275" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"4c016ec99308c2906394c6fdeb6cc87b" widt=
+h=3D"16" height=3D"16"></span><span class=3D"expand-control-text">week 5</s=
+pan>
+</div>
+<div id=3D"expander-content-1692938275" class=3D"expand-content">
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"6cab2745-d7fd-40d0-8ee7-c8d=
+ebdc18775" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 83.0px;">
+<col style=3D"width: 57.0px;">
+<col style=3D"width: 311.0px;">
+<col style=3D"width: 90.0px;">
+<col style=3D"width: 189.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p><strong>9</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Datum</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan project:</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan verslagen:</strong></p></t=
+h>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan research:</strong></p></th=
+>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>30-10-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>doorlezen powerpoint webbinar sequencing novogene</p></li>
+<li><p>coverage naar 1 zetten om te kijken of ik gaps weg kan krijgen bij c=
+hloroplast</p></li>
+<li><p>volgorde juist proberen te krijgen in centromeer </p></li>
+<li><p>nieuwe contigs alle MPDI waarop hij mapt bij elkaar zetten en die so=
+rteren binnen nieuwe contig </p></li>
+<li><p>nieuwe contigs tegen refseq aan mappen niet uit contigs voor gaps tm=
+ux</p></li>
+<li><p>script maken om gaps erin te zetten</p></li>
+<li><p>getOrderedContigs in functies zetten</p></li>
+<li><p>uitzoeken waarom gaps niet kloppen</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>31-10-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>maak 1 agp bestand van alle agp bestanden om locaties op te halen vo=
+or gaps</p></li>
+<li><p>zet gaps in agp bestand</p></li>
+<li><p>maak plan voor vervolgstappen</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>1-11-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>maak scaffolds van contigs met gaps die kleiner zijn dan 200</p></li=
+>
+<li><p>scaffoldnamen goed zetten dat scaffolds die achter elkaar staan zond=
+er gaps een scaffold worden en contigs ook een scaffold worden</p></li>
+<li><p>powerpoint doornemen jan doorgestuurd</p></li>
+<li><p>aanpassen mitochondrial_assembly.md juiste paden</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>starten schrijven van introduction </p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>2-11-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>plaatjes in presentatie eerstejaars aanpassen</p></li>
+<li><p>juiste namen in agp zetten </p></li>
+<li><p>agp naar fasta</p></li>
+<li><p>gaps uit agp halen</p></li>
+<li><p>script centromere regios omgeschreven voor hele genoom</p></li>
+<li><p>snuffelstage eerstejaars</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>aan introduction werken stageverslag</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>uizoeken hoe resultaten lab straks geinterpeteerd moeten worden<a cl=
+ass=3D"external-link" data-card-appearance=3D"inline" href=3D"https://goldb=
+io.com/articles/article/Interpreting-Gel-Electrophoresis-Results" rel=3D"no=
+follow">https://goldbio.com/articles/article/Interpreting-Gel-Electrophores=
+is-Results</a> <a class=3D"external-link" data-card-appearance=3D"inline" h=
+ref=3D"https://www.biostars.org/p/468897/" rel=3D"nofollow">https://www.bio=
+stars.org/p/468897/</a> </p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>3-11-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>plotten agp met zelfgemaakte scaffolds tegen contigs oud genoom</p><=
+/li>
+<li><p>code aanpassen maken agp en grouperen agp</p></li>
+<li><p>mummer op contigs die gegroupeerd zijn in centromere regios</p></li>
+<li><p>orientatie gefixt in <code>/home/student/projects/asp-pan-genome-evy=
+/data/genome/02_deNovoAssembly/superScaffolds/getOrderdFilteredContigs/Cont=
+igsOrderedFilteredToRefseq/ContigsToRefseqV3withoutGaps.fa</code></p></li>
+<li><p>agp naar fasta</p></li>
+<li><p>plotten van ContigsToRefseqV3withoutGaps</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>verslagen lezen voor achtergrond in introductie hoofdstuk verslag</p=
+></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_6_285964402.1705999407881
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/4bf4dfbba6305817e5cecd0734f038b1
+
+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
+------=_Part_6_285964402.1705999407881
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/4c016ec99308c2906394c6fdeb6cc87b
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAA3NCSVQICAjb4U/gAAAAFVBMVEX/
+//9wcHBwcHBwcHBwcHBwcHBwcHA3RenHAAAAB3RSTlMAZoiZzN3/SzZomQAAAAlwSFlzAAALEgAA
+CxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAAUdEVYdENy
+ZWF0aW9uIFRpbWUANi8xLzEzOKlF0AAAACFJREFUCJljYCATsCgwqIAZTMnMyRAhsTABCIMxkVxT
+GQCLcwHyUKXpLgAAAABJRU5ErkJggg==
+------=_Part_6_285964402.1705999407881--

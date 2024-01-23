@@ -1,0 +1,31 @@
+---
+title: "lengthDistributionFlyeContigs"
+output: html_document
+date: "2023-09-12"
+---
+```{r}
+library(ggplot2)
+library(gridExtra)
+library("scales")
+
+# Eerste plot
+data1 <- read.table("../../../data/02_deNovoAssembly/contigs/Flye_results/results_flye_V1/40-polishing/filtered_stats.txt", header = TRUE, sep = "\t", col.names = c("seq_name", "length", "coverage"))
+plot1 <- ggplot(data1, aes(x = length)) +
+    geom_histogram(fill = "blue", color = "black", bins = 100) +
+    geom_vline(xintercept = 594446, color = "red", linetype = "dashed", size = 1) +
+    labs(title = "Length Distribution Flye contigs", x = "Length of contig", y = "Number of contigs") +
+  scale_x_continuous(labels = comma)+
+    theme_minimal()
+
+# Tweede plot
+data2 <- read.table("../../../data/02_deNovoAssembly/annotation_releases/annotation_releases/4686/100/GCF_001876935.1_Aspof.V1/GCF_001876935.1_Aspof.V1_assembly_structure/Primary_Assembly/assembled_chromosomes/AGP/combined_contig_lengths.txt", header = FALSE, sep = ",", col.names = c("Contig", "Length"))
+data2$Length <- as.numeric(gsub("[^0-9]", "", data2$Length))
+plot2 <- ggplot(data2, aes(x = Length)) +
+    geom_histogram(fill = "blue", color = "black", bins = 100) +
+    labs(title = "Length Distribution old reference genome contigs", x = "Length of contig", y = "Number of contigs") +
+    geom_vline(xintercept = 10042, color = "red", linetype = "dashed", size = 1) +
+  scale_x_continuous(labels = comma)+
+    theme_minimal()
+
+grid.arrange(plot1, plot2, ncol = 2)
+```

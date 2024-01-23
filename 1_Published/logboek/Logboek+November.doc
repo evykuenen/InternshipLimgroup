@@ -1,0 +1,893 @@
+Date: Tue, 23 Jan 2024 08:44:06 +0000 (UTC)
+Message-ID: <16851068.3.1705999446148@7c2c234c3fd9>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_2_1346518274.1705999446147"
+
+------=_Part_2_1346518274.1705999446147
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Logboek November</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Logboek November</h1>
+    <div class=3D"Section1">
+        <div id=3D"expander-121476633" class=3D"expand-container">
+<div id=3D"expander-control-121476633" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"4c016ec99308c2906394c6fdeb6cc87b" widt=
+h=3D"16" height=3D"16"></span><span class=3D"expand-control-text">week 1</s=
+pan>
+</div>
+<div id=3D"expander-content-121476633" class=3D"expand-content">
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"f523e8fd-2efb-459b-b1a0-c58=
+df7558c7f" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 121.0px;">
+<col style=3D"width: 53.0px;">
+<col style=3D"width: 299.0px;">
+<col style=3D"width: 79.0px;">
+<col style=3D"width: 178.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p><strong>10</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Datum</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan project:</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan verslagen:</strong></p></t=
+h>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan research:</strong></p></th=
+>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>6-11-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>plotten ContigsOrderedFilteredToRefseqV3</p></li>
+<li><p>getOrder veranderen coverage boven id </p></li>
+<li><p>getAGP reindexen</p></li>
+<li><p>omzetten naar fasta </p></li>
+<li><p>orientatie bekeken in contigsOrderedFilteredToRefseqV3 zou moeten kl=
+oppen vanuit contigsToRefseq.coord en is zelfde in gemaakte agp.</p></li>
+<li><p>code aanpassen dat bij elke contig MPDIs die erbij horen opgeslagen =
+worden </p></li>
+<li><p>volgorde bepalen contigs</p></li>
+<li><p>MPDIs gegroupeerd en op volgorde per group</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>7-11-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>gegroupeerde MPDIs in een lijst zetten voor nieuwe volgorde</p></li>
+<li><p>in script lijst met alle mpdis wordt door geloopt als eerste mpdi wa=
+ar scaffold op ligt gevonden wordt zet alle mpdis van scaffold er in en haa=
+l dubbele er achter uit en zet erachter als uit gedeelte scaffold gehaald i=
+s</p></li>
+<li><p>controleren of er geen dubbele in zitten</p></li>
+<li><p>fasta maken nieuwe volgorde MPDIs</p></li>
+<li><p>fasta MPDIS juiste volgorde tegen scaffolds zonder gaps mappen </p><=
+/li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>eisen nalezen introductie met introductie ernaast</p></li>
+<li><p>zoeken naar andere research om mee te vergelijken introduction</p></=
+li>
+<li><p>aanvullingen in materiaal en methoden</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>assembly a setaceus lezen voor introductie <a class=3D"external-link=
+" data-card-appearance=3D"inline" href=3D"https://www.ncbi.nlm.nih.gov/pmc/=
+articles/PMC7109074/" rel=3D"nofollow">https://www.ncbi.nlm.nih.gov/pmc/art=
+icles/PMC7109074/</a> </p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>8-11-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>plotten ContigsOrderedFilteredToRefseqV3WithGroupedCentromeres</p></=
+li>
+<li><p>parameters minder hard zetten in script </p></li>
+<li><p>contigstorefseq opnieuw maken voor nieuw .coord file voor python scr=
+ipt getorderedcontigs en in md files alles naar standaard contigs zetten di=
+e niet al zijn geordened of filtered-&gt; contigs.fasta</p></li>
+<li><p>reindexen </p></li>
+<li><p>gaps eruit script getagpwithoutgaps</p></li>
+<li><p>opnieuw mappen op currentcontigs</p></li>
+<li><p>getOrderedCentromere opnieuw met minder harde parameters</p></li>
+<li><p>nagaan waarom orientatie vorige keer fout ging in getOrderedContigs<=
+/p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>in verslag materiaal en methoden tot waar ik ben</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>kijken wat hi-c seqeuncing is voor vergadering</p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>9-11-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>script schrijven die uitrekent hoeveel van de totale lengte van matc=
+hes welke orientatie heeft en deze met meeste orientatie een kant in gebrui=
+ken </p></li>
+<li><p>uitzoeken waarom volgorde getOrderCentromere niet klopt</p></li>
+<li><p>juiste volgorde krijgen in getOrderCentromere</p></li>
+<li><p>fasta van agp van /home/student/projects/asp-pan-genome-evy/data/gen=
+ome/02_deNovoAssembly/superScaffolds/getOrderdFilteredContigs/ContigsOrdere=
+dFilteredToRefseq/ContigsOrderedFilteredToRefseqContigs.fa</p></li>
+<li><p>mappen /home/student/projects/asp-pan-genome-evy/data/genome/02_deNo=
+voAssembly/superScaffolds/getOrderdFilteredContigs/ContigsOrderedFilteredTo=
+Refseq/ContigsOrderedFilteredToRefseqContigs.fa op oude contigs </p></li>
+<li><p>hi-c bespreking aantekeningen: 100-150 m readpairs data to start<br>=
+qc tool hi-c opensource<br>overal judgment belangrijkst in qc<br>minder dan=
+ 5 procent duplicates<br>3c scaffolding tools juicer overbreak contigs ople=
+tten juicebox controle</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>verder aan materiaal en methoden </p></li>
+<li><p>aan resultaten gewerkt mitochondrien genoom erin gezet </p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"h=
+ttps://pubmed.ncbi.nlm.nih.gov/22652625/" rel=3D"nofollow">https://pubmed.n=
+cbi.nlm.nih.gov/22652625/</a> Hi-c sequencing</p></li>
+<li><p>quality control hic <a class=3D"external-link" data-card-appearance=
+=3D"inline" href=3D"https://github.com/phasegenomics/hic_qc" rel=3D"nofollo=
+w">https://github.com/phasegenomics/hic_qc</a> </p></li>
+<li><p>pipeline reads-&gt; normalized contact maps <a class=3D"external-lin=
+k" data-card-appearance=3D"inline" href=3D"https://github.com/nservant/HiC-=
+Pro" rel=3D"nofollow">https://github.com/nservant/HiC-Pro</a> </p></li>
+<li><p>juicer reads-&gt;hi-c maps</p></li>
+<li><p></p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>10-11-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>plotten contigsorderedfilteredtorefseqcontigs</p></li>
+<li><p>volgorde aanpassen in getOrderedContigs.py</p></li>
+<li><p>orientatie meegeven van oude contigs in getordercentromere.py</p></l=
+i>
+<li><p>orientatie controleren </p></li>
+<li><p>omzetten ContigsOrderedFilteredToRefseqContigs.agp naar fasta</p></l=
+i>
+<li><p>plotten ContigsOrderedFilteredToRefseqContigs op currentcontigs</p><=
+/li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>protecol hi-c lezen https://4408603.fs1.hubspotusercontent-na1.net/h=
+ubfs/4408603/Protocol_Plant_v4.5_202307.pdf</p></li>
+<li><p>bekijken hoe juicebox werkt <a class=3D"external-link" href=3D"https=
+://github.com/aidenlab/Juicebox/wiki" rel=3D"nofollow">https://github.com/a=
+idenlab/Juicebox/wiki</a> </p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id=3D"expander-2095082498" class=3D"expand-container">
+<div id=3D"expander-control-2095082498" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"4c016ec99308c2906394c6fdeb6cc87b" widt=
+h=3D"16" height=3D"16"></span><span class=3D"expand-control-text">week 2</s=
+pan>
+</div>
+<div id=3D"expander-content-2095082498" class=3D"expand-content">
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"ddab30c2-a708-4732-a4e9-0ac=
+644313c47" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 118.0px;">
+<col style=3D"width: 53.0px;">
+<col style=3D"width: 300.0px;">
+<col style=3D"width: 80.0px;">
+<col style=3D"width: 179.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p><strong>11</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Datum</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan project:</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan verslagen:</strong></p></t=
+h>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan research:</strong></p></th=
+>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>13-11-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>zaterdag : opnieuw runnen mummer4 contigsorderedfilteredTorefseqcont=
+igs in juiste volgorde </p></li>
+<li><p>zondag: runnen contigsorderedfilteredtorefseqV3withgroupedcentromere=
+</p></li>
+<li><p>aanpassen getOrderCentromere.py voor betere volgorde en betere orien=
+tatie</p></li>
+<li><p>download dataset hi c mens</p></li>
+<li><p>mummer op juiste volgorde en orientatie oude contigs</p></li>
+<li><p>installing juicer </p></li>
+<li><p>nieuwe contigs die in - stonden mpdis juiste volgorde</p></li>
+<li><p>index fasta voor juicer</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>heatmap hi-c lezen <a class=3D"external-link" data-card-appearance=
+=3D"inline" href=3D"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4347522/" =
+rel=3D"nofollow">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4347522/</a> =
+<a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https://=
+www.youtube.com/watch?v=3DRw9MxL4Qp9U" rel=3D"nofollow">https://www.youtube=
+.com/watch?v=3DRw9MxL4Qp9U</a> </p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>14-11-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>orientatie bekijken in getOrderCentromere.py</p></li>
+<li><p>allmaps verder uitwerken</p></li>
+<li><p>juicer verder uitproberen in script juiceDir weg halen</p></li>
+<li><p>scripts aanpassen van pyScaf vanwege niet meer gesuporte imports</p>=
+</li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>aan verslag werken</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>15-11-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>plotten van contigsorderedtorefseqv3withgroupedcentromeres</p></li>
+<li><p>orientatie bekijken van contigsorderedtorefseqv3withgroupedcentromer=
+es</p></li>
+<li><p>opnieuw mummer runnen</p></li>
+<li><p>allmaps vcf file maken</p></li>
+<li><p>code om_5 aanpassen </p></li>
+<li><p>om_5 runnen en uitzoeken wat stappen erna zijn</p></li>
+<li><p>runallmaps herschrijven voor maar 1 csv met merkers</p></li>
+<li><p>uitzoeken wat er mis is gegaan bij maken marker onemap omdat hij lee=
+g is </p></li>
+<li><p>eerste stap opnieuw onemap</p></li>
+<li><p>pyscaf resultaten bekijken</p></li>
+<li><p>assemblathon_stats.pl bekijken vanwege niet werkende code</p></li>
+<li><p>orientatie goed krijgen foute orientatie test met ander coord file</=
+p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>16-11-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>opnieuw naar orientatie kijken getordercentromere en code aangepast =
+en getest met 6 contigs ook die al goed lagen</p></li>
+<li><p>maken vcf voor onemap opnieuw</p></li>
+<li><p>proberen te installeren van singularity voor onemap</p></li>
+<li><p>code om5 aanpassen</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>protecol anne doornemen</p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>17-11-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>mummer opnieuw runnen met 100 schuivingen in mpdis en een die 100 sc=
+huivingen doet op degene met al 100 schuivingen</p></li>
+<li><p>naar lab</p></li>
+<li><p>pyscaff opnieuw runnen met current contigs in plaats van refseq</p><=
+/li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>in verslag lab deel verwerken</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id=3D"expander-1789622846" class=3D"expand-container">
+<div id=3D"expander-control-1789622846" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"4c016ec99308c2906394c6fdeb6cc87b" widt=
+h=3D"16" height=3D"16"></span><span class=3D"expand-control-text">week 3</s=
+pan>
+</div>
+<div id=3D"expander-content-1789622846" class=3D"expand-content">
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"998c7ecd-9e08-464b-ac29-4fa=
+620be3519" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 112.0px;">
+<col style=3D"width: 61.0px;">
+<col style=3D"width: 292.0px;">
+<col style=3D"width: 87.0px;">
+<col style=3D"width: 178.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p><strong>12</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Datum</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan project:</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan verslagen:</strong></p></t=
+h>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan research:</strong></p></th=
+>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>20-11-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>interpreteren en uitwerken van pcr resultaten</p></li>
+<li><p>pyscaf opnieuw runnen met hele sequentie vanwege error op te korte s=
+equenties bij contigs</p></li>
+<li><p>script schrijven laatste mpdis juiste orientatie en nieuwe contigs i=
+n juiste volgorde</p></li>
+<li><p>mappen van nieuwe contigs in juiste volgorde op oude contigs in juis=
+te volgorde</p></li>
+<li><p>uitzoeken hoe blast voor laatste 10000 bp van mitochondrien</p></li>
+<li><p>blast laatste 10kbp unknown van mitochondrien</p></li>
+<li><p>pyscaf opnieuw runnen </p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>laatste methoden en materialen voor pcr toegevoegd</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>21-11-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>pyscaf resultaten bekijken maar 4 scaffolds gemaakt en geen refseq</=
+p></li>
+<li><p>zoeken naar mummer api</p></li>
+<li><p>overlap in pyscaf lager zetten</p></li>
+<li><p>allmaps opnieuw runnen</p></li>
+<li><p>uitzoeken waarom alleen headers in sam gezet worden hisat bij allmap=
+s</p></li>
+<li><p>uittekenen mitochondrien</p></li>
+<li><p>syntany based alignment uitproberen ragtag</p></li>
+<li><p>medusa installeren</p></li>
+<li><p>referentiesequenties andere genomen downloaden</p></li>
+<li><p>medusa runnen</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>stappen van mitochondrien evaluatie in verslag</p></li>
+<li><p>resultaten mitochondrien primers in verslag</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>protecol hi-c: <a class=3D"external-link" data-card-appearance=3D"in=
+line" href=3D"https://www.protocols.io/view/plant-assemble-plant-de-novo-ge=
+nome-assembly-scaff-ewov14bz7vr2/v2?step=3D2" rel=3D"nofollow">https://www.=
+protocols.io/view/plant-assemble-plant-de-novo-genome-assembly-scaff-ewov14=
+bz7vr2/v2?step=3D2</a> </p></li>
+<li><p>synteny based assembly: <a class=3D"external-link" data-card-appeara=
+nce=3D"inline" href=3D"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8290116=
+/" rel=3D"nofollow">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8290116/</=
+a> </p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>22-11-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>onemap runnen met nieuwe parameters staat in allmaps commands</p></l=
+i>
+<li><p>resultaten ContigsOrderedFilteredToRefseqV2WithGroupedCentromeres500=
+verplaatsingen.delta bekijken</p></li>
+<li><p>nog een keer script voor centromere regios runnen nu met 300 verplaa=
+tsingen</p></li>
+<li><p>stagebegeleider mailen vragen zelfgeformuleerde tips en reflectie ov=
+er welke beoordeling deze gaan</p></li>
+<li><p>uitzoeken waarom mummer bij medusa postnuc error geeft</p></li>
+<li><p>zelfgeformuleerde tips document maken </p></li>
+<li><p>headers aanpassen voor medusa </p></li>
+<li><p>medusa opnieuw runnen (nu komt hij verder dan stap 3 mummerq)</p></l=
+i>
+<li><p>pyscaff resultaten bekijken (maakt scaffolds maar geen nieuwe refseq=
+ van scaffolds geen nieuwe scaffolds met 0.5 overlap)</p></li>
+<li><p>pyscaf opnieuw runnen andere parameters</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>resultaten mitochondrien in verslag</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>23-11-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>opnieuw runnen van getOrderCentromere.py met juiste contig bestand</=
+p></li>
+<li><p>nog een keer runnen getOrderCentromere.py 1000 verplaatsingen en 85 =
+coverage in plaats van 90</p></li>
+<li><p>allmaps resultaten bekijken</p></li>
+<li><p>bed bestand maken allmaps </p></li>
+<li><p>script allmaps doorlezen voor opbouw bed</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>wat moet er gebeuren centromere regios<a class=3D"external-link" dat=
+a-card-appearance=3D"inline" href=3D"https://www.ncbi.nlm.nih.gov/pmc/artic=
+les/PMC5689209/" rel=3D"nofollow">https://www.ncbi.nlm.nih.gov/pmc/articles=
+/PMC5689209/</a> allpaths-lg gebruikt(voor short reads)<a class=3D"external=
+-link" data-card-appearance=3D"inline" href=3D"https://www.sciencedirect.co=
+m/science/article/abs/pii/S1046202320302012" rel=3D"nofollow">https://www.s=
+ciencedirect.com/science/article/abs/pii/S1046202320302012</a> <a class=3D"=
+external-link" data-card-appearance=3D"inline" href=3D"http://masurca.blogs=
+pot.com/" rel=3D"nofollow">http://masurca.blogspot.com/</a> <a class=3D"ext=
+ernal-link" data-card-appearance=3D"inline" href=3D"https://banana-slug.soe=
+.ucsc.edu/contributors:team_5:discovar_de_novo_manual" rel=3D"nofollow">htt=
+ps://banana-slug.soe.ucsc.edu/contributors:team_5:discovar_de_novo_manual</=
+a> discovar heeft illumina nodig<a class=3D"external-link" href=3D"http://e=
+vomics.org/wp-content/uploads/2012/01/AllPaths-LG_Manual.pdf" rel=3D"nofoll=
+ow">http://evomics.org/wp-content/uploads/2012/01/AllPaths-LG_Manual.pdf</a=
+> allpaths accepteert pacbio reads (als lib)</p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>24-11-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>kijken waarom allmaps zo weinig vind</p></li>
+<li><p>plotten van 300 verplaatsingen na 500 verplaatsingen</p></li>
+<li><p>allmaps opnieuw runnen</p></li>
+<li><p>testbestanden allmaps zoeken en downloaden</p></li>
+<li><p>bestanden vergelijken met eigen data om voor structuurfout te kijken=
+</p></li>
+<li><p>veranderen bed file voor zelfde structuur als testbestand</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>in verslag materiaal en methoden aanvullen </p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>kijken hoe hi-c werkt in detail met protecol <a class=3D"external-li=
+nk" data-card-appearance=3D"inline" href=3D"https://www.ncbi.nlm.nih.gov/pm=
+c/articles/PMC8362010/" rel=3D"nofollow">https://www.ncbi.nlm.nih.gov/pmc/a=
+rticles/PMC8362010/</a> </p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id=3D"expander-1933067235" class=3D"expand-container">
+<div id=3D"expander-control-1933067235" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"4c016ec99308c2906394c6fdeb6cc87b" widt=
+h=3D"16" height=3D"16"></span><span class=3D"expand-control-text">week 4</s=
+pan>
+</div>
+<div id=3D"expander-content-1933067235" class=3D"expand-content">
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"1d049970-313a-46aa-976e-f59=
+c763d87d5" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 118.0px;">
+<col style=3D"width: 53.0px;">
+<col style=3D"width: 300.0px;">
+<col style=3D"width: 133.0px;">
+<col style=3D"width: 126.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p><strong>13</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Datum</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan project:</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan verslagen:</strong></p></t=
+h>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan research:</strong></p></th=
+>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>27-11-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>mummer runnen 1000 verplaatsingen </p></li>
+<li><p>uitzoeken waar error medusa vandaan komt (komt uit verouderde module=
+ die is aangepast in code nu)</p></li>
+<li><p>opnieuw runnen medusa</p></li>
+<li><p>kijken of medusa gerunt kan worden uit al bestaande delta files (tot=
+ gexf file maar niet fasta met complete alignment)</p></li>
+<li><p>uitzoeken wat er fout gaat in onemaps hele script doorlezen waarom e=
+r geen placed zijn (probleem met pivot map staat maar 1 merker in)</p></li>
+<li><p>aanpassen weights file en bed file voor allmaps mist nu wel nummer m=
+erker</p></li>
+<li><p>uitzoeken wat ik met de resultaten moet van allmaps</p></li>
+<li><p>mappen van resultaten allmaps op referentie</p></li>
+<li><p>quality check in markdown</p></li>
+<li><p>contigs in markdown</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>28-11-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>code aanpassen onemap</p></li>
+<li><p>laatste juiste agp zoeken: /home/student/projects/asp-pan-genome-evy=
+/data/genome/02_deNovoAssembly/superScaffolds/getCentromereRegions/2_100Ver=
+plaatsingen/ContigsOrderedFilteredToRefseqV2WithGroupedCentromeres.coord hi=
+ervan agp maken</p></li>
+<li><p>code schrijven die chromosoom vind bij mpdi en agp maakt</p></li>
+<li><p>chromosomen in agp zetten dit dus overhevelen van mpdis</p></li>
+<li><p>gaps in agp </p></li>
+<li><p>reindexen gaps</p></li>
+<li><p>fasta maken van agp met jcvi</p></li>
+<li><p>in functies zetten van scripts</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>uitzoeken of er meerdere referenties in allmaps kunnen <a class=3D"e=
+xternal-link" data-card-appearance=3D"inline" href=3D"https://genomebiology=
+.biomedcentral.com/articles/10.1186/s13059-014-0573-1" rel=3D"nofollow">htt=
+ps://genomebiology.biomedcentral.com/articles/10.1186/s13059-014-0573-1</a>=
+ (kan niet alleen meerdere maps)</p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>29-11-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>commentaar toevoegen en in functies zetten van alle scripts in md fi=
+le contigs assembly</p></li>
+<li><p>nakijken /home/student/projects/asp-pan-genome-evy/02_deNovoAssembly=
+/genome/02_1_de_novo_assembly_contigs.md</p></li>
+<li><p>script in mitochondrien md ook documenteren en in functies zetten</p=
+></li>
+<li><p>scaffolds md maken en paden controleren</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>in discussie oude referentie genoom heeft slechte qualiteit en nieuw=
+e weten we niet zeker dus controle met HI-C</p></li>
+<li><p>materiaal en methoden tot einde superscaffolds</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>30-11-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>allmaps terug zetten zoals het was en dan volledig kopieren en opnie=
+uw doen voor oude en nieuwe refseq apart</p></li>
+<li><p>maken van superscaffolds md</p></li>
+<li><p>code allmaps aanpassen om5</p></li>
+<li><p>per chromosoom een plot maken nieuw tegen oud</p></li>
+<li><p>allmaps runnen nieuwe chromosomen</p></li>
+<li><p>nieuwe chromosomen vergelijken oude chromosomen en bijbehorende best=
+anden</p></li>
+<li><p>fasta nieuwe chromosomen opnieuw maken gemaakt met verkeerde orienta=
+tie vorige keer</p></li>
+<li><p>kijken op welke contig merker ligt die fout ligt AoV1_06_4414434 met=
+ getFilesNextStep.py </p></li>
+<li><p>mpdi vinden waar merker op ligt met grep uit bestand aangepaste head=
+ers</p></li>
+<li><p>script placed contigs vinden</p></li>
+<li><p>unplaced in lijst</p></li>
+<li><p>unplaced als chromosoom in agp 1000 gaps ertussen</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>uitzoeken wat er mis is met mijn vcf <a class=3D"external-link" data=
+-card-appearance=3D"inline" href=3D"https://www.biostars.org/p/286451/" rel=
+=3D"nofollow">https://www.biostars.org/p/286451/</a> </p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>1-12-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>summary maken info unplaced nieuw/oud, length chromosomes, </p></li>
+<li><p>oude en nieuwe refseq tegen medusa resultaten</p></li>
+<li><p>een mummer niewe ref tegen nieuwe ref om te kijken of je overlap zie=
+t</p></li>
+<li><p>in summary ook de verschillen in placed en unplaced zetten maar dan =
+in bp </p></li>
+<li><p>allmaps resultaten bekijken (in totaal 44 markers sowieso dubbel op =
+genoom)</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>kijken of BUSCO met gaps 100 zin heeft(werkt in theorie maar kan gen=
+en onjuist identificeren)</p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_2_1346518274.1705999446147
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/4c016ec99308c2906394c6fdeb6cc87b
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAA3NCSVQICAjb4U/gAAAAFVBMVEX/
+//9wcHBwcHBwcHBwcHBwcHBwcHA3RenHAAAAB3RSTlMAZoiZzN3/SzZomQAAAAlwSFlzAAALEgAA
+CxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAAUdEVYdENy
+ZWF0aW9uIFRpbWUANi8xLzEzOKlF0AAAACFJREFUCJljYCATsCgwqIAZTMnMyRAhsTABCIMxkVxT
+GQCLcwHyUKXpLgAAAABJRU5ErkJggg==
+------=_Part_2_1346518274.1705999446147--

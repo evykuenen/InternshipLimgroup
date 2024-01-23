@@ -1,0 +1,1097 @@
+Date: Tue, 23 Jan 2024 08:42:40 +0000 (UTC)
+Message-ID: <709771188.11.1705999360542@cfde04ecfe6c>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_10_1272139409.1705999360541"
+
+------=_Part_10_1272139409.1705999360541
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Logboek September</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Logboek September</h1>
+    <div class=3D"Section1">
+        <div id=3D"expander-1785897386" class=3D"expand-container">
+<div id=3D"expander-control-1785897386" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"4c016ec99308c2906394c6fdeb6cc87b" widt=
+h=3D"16" height=3D"16"></span><span class=3D"expand-control-text">week 1</s=
+pan>
+</div>
+<div id=3D"expander-content-1785897386" class=3D"expand-content">
+<p></p>
+<p></p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"57bb8c9e-2ed0-4904-a227-c4d=
+28a431809" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 73.0px;">
+<col style=3D"width: 59.0px;">
+<col style=3D"width: 313.0px;">
+<col style=3D"width: 93.0px;">
+<col style=3D"width: 192.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p><strong>1</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Datum</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan project:</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan verslagen:</strong></p></t=
+h>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan research:</strong></p></th=
+>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>28-8-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>Plan van aanpak herschrijven</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>Artikel oud refentiegenoom gelezen (<a class=3D"external-link" data-=
+card-appearance=3D"inline" href=3D"https://www.ncbi.nlm.nih.gov/pmc/article=
+s/PMC5665984/)" rel=3D"nofollow">https://www.ncbi.nlm.nih.gov/pmc/articles/=
+PMC5665984/)</a> )</p></li>
+<li><p>Artikel referentiegenoom herbal plants gelezen (<a class=3D"external=
+-link" href=3D"https://onlinelibrary.wiley.com/doi/10.1111/1755-0998.13257)=
+" rel=3D"nofollow">https://onlinelibrary.wiley.com/doi/10.1111/1755-0998.13=
+257)</a></p></li>
+<li><p>Artikel referentiegenoom Voacanga thouarsii lezen (<a class=3D"exter=
+nal-link" href=3D"https://academic.oup.com/gbe/article/14/11/evac158/677533=
+7?login=3Dfalse)" rel=3D"nofollow">https://academic.oup.com/gbe/article/14/=
+11/evac158/6775337?login=3Dfalse)</a> )</p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>29-8-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>Plan van aanpak afronden</p></li>
+<li><p>kwaliteits controle PacBio reads</p></li>
+<li><p>cram bestand oude reads naar bam bestand </p></li>
+<li><p>mate pair reads naar server gezet </p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p>Opzet gemaakt</p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>30-8-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>stage begeleider school plan van aanpak gemaild met vraag genoeg inf=
+ormatica en afspraak wanneer hij langs komt.</p></li>
+<li><p>QC van matepair reads</p></li>
+<li><p>clonen git repository Docker image BUSCO (<a class=3D"external-link"=
+ data-card-appearance=3D"inline" href=3D"https://github.com/chrishah/BUSCO-=
+docker" rel=3D"nofollow">https://github.com/chrishah/BUSCO-docker</a> )</p>=
+</li>
+<li><p>plan van aanpak bijgewerkt</p></li>
+<li><p>docker busco-docker-image aangemaakt</p></li>
+<li><p>start maken contigs met wtdbg2</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>stuk over hoe reads verkregen</p></li>
+<li><p>klad kwaliteit controle </p></li>
+<li><p>vooropdrachten persoonlijk ontwikkelingsplan</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>31-8-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>testbestand maken pacbio reads</p></li>
+<li><p>Rechten tot docker gekregen</p></li>
+<li><p>Starten contigs maken test default parameters na testbestand getest =
+te hebben in wtdbg2</p></li>
+<li><p>BUSCO score oud referentiegenoom berekenen in docker</p></li>
+<li><p>Kijken naar parameters handig voor echte contigassembly</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>persoonlijk ontwikkelingsplan opzet grotendeels, alleen nog puntjes =
+op i</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>Artikelen zoeken verslag </p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>1-9-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>bekijken resultaten wtdbg2 consensuscontigs.</p></li>
+<li><p>opnieuw runnen wtdbg2 vanwege niet realistische N50 x2</p></li>
+<li><p>mappenstructuur aangepast</p></li>
+<li><p>BUSCO analyse opnieuw </p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>onderzoek wat er in een stageverslag moet staan</p></li>
+<li><p>materiaal en methoden sequencing en quality control schrijven</p></l=
+i>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>Artikel hoe BUSCO werkt: <a class=3D"external-link" data-card-appear=
+ance=3D"inline" href=3D"https://academic.oup.com/bioinformatics/article/31/=
+19/3210/211866" rel=3D"nofollow">https://academic.oup.com/bioinformatics/ar=
+ticle/31/19/3210/211866</a> </p></li>
+<li><p>artikel eisen reads sequencen <a class=3D"external-link" href=3D"htt=
+ps://www.novogene.com/us-en/wp-content/uploads/sites/4/2022/02/20220221Novo=
+gene-Sample-Requirements.pdf" rel=3D"nofollow">https://www.novogene.com/us-=
+en/wp-content/uploads/sites/4/2022/02/20220221Novogene-Sample-Requirements.=
+pdf</a></p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+</div>
+</div>
+<div id=3D"expander-1819092629" class=3D"expand-container">
+<div id=3D"expander-control-1819092629" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"4c016ec99308c2906394c6fdeb6cc87b" widt=
+h=3D"16" height=3D"16"></span><span class=3D"expand-control-text">week 2</s=
+pan>
+</div>
+<div id=3D"expander-content-1819092629" class=3D"expand-content">
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"da371ab0-e722-4bbc-b7d8-286=
+f469e7487" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 73.0px;">
+<col style=3D"width: 59.0px;">
+<col style=3D"width: 313.0px;">
+<col style=3D"width: 93.0px;">
+<col style=3D"width: 192.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p><strong>2</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Datum</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan project:</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan verslagen:</strong></p></t=
+h>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan research:</strong></p></th=
+>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>4-9-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>git gekoppeld </p></li>
+<li><p>interpreteren van BUSCO resultaten</p></li>
+<li><p>interpreten van contig resultaten </p></li>
+<li><p>wtdbg2 opnieuw runnen met extra parameters</p></li>
+<li><p>falcon in virtual environment download</p></li>
+<li><p>Canu gedownload</p></li>
+<li><p>flye gedownload</p></li>
+<li><p>.bam bestand pacbio reads naar .fastq voor canu</p></li>
+<li><p>canu gestart</p></li>
+<li><p>flye gestart</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>BUSCO resultaten in verslag</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>wanneer contig scores goed en BUSCO <a class=3D"external-link" data-=
+card-appearance=3D"inline" href=3D"https://www.pacb.com/blog/beyond-contigu=
+ity/" rel=3D"nofollow">https://www.pacb.com/blog/beyond-contiguity/</a> </p=
+></li>
+<li><p>wat is L50 en N50 en wat zijn goede waarden (verschilt en moet per g=
+eval bekeken worden)</p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>5-9-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>op externe server canu en flye geinstalleerd </p></li>
+<li><p>wtdbg2 opnieuw runnen</p></li>
+<li><p>zippen van REF88=E2=80=A6 .fastq</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>inlezen SSPACE<a class=3D"external-link" href=3D"https://academic.ou=
+p.com/bioinformatics/article/27/4/578/197626" rel=3D"nofollow">https://acad=
+emic.oup.com/bioinformatics/article/27/4/578/197626</a> <a class=3D"externa=
+l-link" data-card-appearance=3D"inline" href=3D"https://bmcbioinformatics.b=
+iomedcentral.com/articles/10.1186/1471-2105-15-211" rel=3D"nofollow">https:=
+//bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-15-211</a>=
+ </p></li>
+<li><p>inlezen run SSPACE longreads<a class=3D"external-link" href=3D"https=
+://readthedocs.org/projects/run-sspace-longread/downloads/pdf/latest/" rel=
+=3D"nofollow">https://readthedocs.org/projects/run-sspace-longread/download=
+s/pdf/latest/</a></p></li>
+<li><p>parameters SSPACE longreads <a class=3D"external-link" data-card-app=
+earance=3D"inline" href=3D"https://wiki.gacrc.uga.edu/wiki/SSPACE-longread-=
+Teaching" rel=3D"nofollow">https://wiki.gacrc.uga.edu/wiki/SSPACE-longread-=
+Teaching</a> </p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>6-9-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>flye bestanden bekijken</p></li>
+<li><p>canu aanzetten</p></li>
+<li><p>stageverslag in markdown en delen al schrijven </p></li>
+<li><p>BUSCO runnen flye filtered contigs</p></li>
+<li><p>GapFinisher in plan van aanpak gezet</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>POP verslag afgemaakt en ingeleverd</p></li>
+<li><p>verslag aangevuld met Flye</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>onderzoek aantal contigs naar beneden<a class=3D"external-link" data=
+-card-appearance=3D"inline" href=3D"https://www.researchgate.net/figure/Sim=
+plified-overview-of-the-Pilon-workflow-for-assembly-improvement-and-variant=
+-detection_fig1_268787566" rel=3D"nofollow">https://www.researchgate.net/fi=
+gure/Simplified-overview-of-the-Pilon-workflow-for-assembly-improvement-and=
+-variant-detection_fig1_268787566</a> <a class=3D"external-link" data-card-=
+appearance=3D"inline" href=3D"https://flowersoftheocean.wordpress.com/2018/=
+04/16/polishing-pacbio-assemblies-with-arrow-and-pilon/" rel=3D"nofollow">h=
+ttps://flowersoftheocean.wordpress.com/2018/04/16/polishing-pacbio-assembli=
+es-with-arrow-and-pilon/</a> </p></li>
+<li><p>onderzoek purge haploigs<a class=3D"external-link" href=3D"https://w=
+ww.researchgate.net/publication/329283660_Purge_Haplotigs_Allelic_contig_re=
+assignment_for_third-gen_diploid_genome_assemblies" rel=3D"nofollow">https:=
+//www.researchgate.net/publication/329283660_Purge_Haplotigs_Allelic_contig=
+_reassignment_for_third-gen_diploid_genome_assemblies</a> </p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>7-9-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>wtdbg2 files met consensus contigs omzetten van .ctg.lay naar .ctg.l=
+ay.fa</p></li>
+<li><p>kleine aanpassingen plan van aanpak</p></li>
+<li><p>BUSCO analyse op wtdbg2 contigs</p></li>
+<li><p>dot en gfa files proberen te openen</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>eerste versie hfst. Quality control afgemaakt</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>onderzoek gapFinisher <a class=3D"external-link" href=3D"https://jou=
+rnals.plos.org/plosone/article/file?id=3D10.1371/journal.pone.0216885&amp;t=
+ype=3Dprintable" rel=3D"nofollow">https://journals.plos.org/plosone/article=
+/file?id=3D10.1371/journal.pone.0216885&amp;type=3Dprintable</a> </p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>8-9-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>verplaatsen files uit remote server want te weinig ruimte voor nieuw=
+e ronde flye</p></li>
+<li><p>BUSCO score flye verwerken in verslag</p></li>
+<li><p>flye opnieuw runnen </p></li>
+<li><p>BUSCO analyse op wtdbg2 contigs</p></li>
+<li><p>seqkit bekijken flye resultaten</p></li>
+<li><p>bam bestand maken van flye resultaten voor subset contig</p></li>
+<li><p>opzet agenda en notulen voor stagebezoek</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>eisen verslagopbouw en inhoud uitzoeken</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>uitzoeken wat fragments zijn in flye</p></li>
+<li><p>uitzoeken wat ik moet voorbereiden snuffelstage eerste jaars</p></li=
+>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id=3D"expander-1572351490" class=3D"expand-container">
+<div id=3D"expander-control-1572351490" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"4c016ec99308c2906394c6fdeb6cc87b" widt=
+h=3D"16" height=3D"16"></span><span class=3D"expand-control-text">week 3</s=
+pan>
+</div>
+<div id=3D"expander-content-1572351490" class=3D"expand-content">
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"0589667d-b75b-42c5-9075-0c6=
+8b99bc893" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 74.0px;">
+<col style=3D"width: 61.0px;">
+<col style=3D"width: 312.0px;">
+<col style=3D"width: 93.0px;">
+<col style=3D"width: 190.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p><strong>3</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Datum</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan project:</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan verslagen:</strong></p></t=
+h>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan research:</strong></p></th=
+>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>11-9-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>flye opnieuw runnen</p></li>
+<li><p>commandos zoeken van .bam bestand naar kleine subset reads die mappe=
+n tegen contig 10.</p></li>
+<li><p>ruimte maken voor nieuwe flye run</p></li>
+<li><p>stappen om wtdbg2 bestand .ctg.lay naar een goed fasta te krijgen vo=
+or BUSCO analyse</p></li>
+<li><p>wtdbg2 opnieuw runnen met alleen <code>-t 19 -g 1.3g -x preset4</cod=
+e> als parameters</p></li>
+<li><p>plan van aanpak aanpassen</p></li>
+<li><p>inklap menus in logboek</p></li>
+<li><p>maken van subset reads die mappen op contig indexen</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>onderzoek parameters FALCON<a class=3D"external-link" data-card-appe=
+arance=3D"inline" href=3D"https://pb-falcon.readthedocs.io/en/latest/parame=
+ters.html#parameters" rel=3D"nofollow">https://pb-falcon.readthedocs.io/en/=
+latest/parameters.html#parameters</a> <a class=3D"external-link" href=3D"ht=
+tps://pb-falcon.readthedocs.io/_/downloads/en/latest/pdf/" rel=3D"nofollow"=
+>https://pb-falcon.readthedocs.io/_/downloads/en/latest/pdf/</a> </p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>12-9-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>subset reads maken die mappen op contig 10</p></li>
+<li><p>lengte distributie flye contigs plotten</p></li>
+<li><p>lengte distributie oud referentiegenoom plotten</p></li>
+<li><p>plots aan elkaar maken en nummering leesbaar maken</p></li>
+<li><p>parameters SSPACE onderzocht </p></li>
+<li><p>eerste run SSPACE aangezet</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>13-9-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>Bestanden decomprimeren en SSPACE opnieuw runnen</p></li>
+<li><p>onderzoek hoe mummer werkt</p></li>
+<li><p>mummer runnen met SSPACE resultaten</p></li>
+<li><p>opzet agenda voor stagebezoek veranderd </p></li>
+<li><p>opzet presentatie stagebezoek gemaakt.</p></li>
+<li><p>dotfile uit SSPACE naar png zetten om te bekijken</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>verslag aanvullen SSPACE results</p></li>
+<li><p>BUSCO scores in tabel verwerken</p></li>
+<li><p>grafiek tekst length distribution verslag schrijven</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>papers jan gelezen: <a class=3D"external-link" data-card-appearance=
+=3D"inline" href=3D"https://journals.plos.org/ploscompbiol/article?id=3D10.=
+1371/journal.pcbi.1006994" rel=3D"nofollow">https://journals.plos.org/plosc=
+ompbiol/article?id=3D10.1371/journal.pcbi.1006994</a> <a class=3D"external-=
+link" href=3D"https://bioinf.comav.upv.es/courses/sequence_analysis/_downlo=
+ads/29334a2b7e29c566b6dabcd748134fdf/assembly.pdf" rel=3D"nofollow">assembl=
+y.pdf (upv.es)</a> </p></li>
+<li><p>onderzoek hoeveel cores CANU <a class=3D"external-link" data-card-ap=
+pearance=3D"inline" href=3D"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC54=
+11767/" rel=3D"nofollow">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC54117=
+67/</a> <a class=3D"external-link" data-card-appearance=3D"inline" href=3D"=
+https://www.reneshbedre.com/blog/canu-long-read-assembler.html?utm_content=
+=3Dcmp-true" rel=3D"nofollow">https://www.reneshbedre.com/blog/canu-long-re=
+ad-assembler.html?utm_content=3Dcmp-true</a> <a class=3D"external-link" dat=
+a-card-appearance=3D"inline" href=3D"https://www.biostars.org/p/9507736/" r=
+el=3D"nofollow">https://www.biostars.org/p/9507736/</a> 56 cores</p></li>
+<li><p>onderzoek of mummer op meerdere cores kan draaien <a class=3D"extern=
+al-link" data-card-appearance=3D"inline" href=3D"https://github.com/mummer4=
+/mummer/issues/62" rel=3D"nofollow">https://github.com/mummer4/mummer/issue=
+s/62</a> </p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>14-9-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>SSPACE opnieuw runnen RF reads</p></li>
+<li><p>MUMmer runnen </p></li>
+<li><p>AGP file maken</p></li>
+<li><p>AGP validator geinstalleerd</p></li>
+<li><p>AGP gevalideert </p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>onderzoek meerdere cores mummer <a class=3D"external-link" data-card=
+-appearance=3D"inline" href=3D"https://github.com/mummer4/mummer/issues/132=
+" rel=3D"nofollow">https://github.com/mummer4/mummer/issues/132</a> </p></l=
+i>
+<li><p>onderzoek leveraging synteny MeDuSa<a class=3D"external-link" data-c=
+ard-appearance=3D"inline" href=3D"https://github.com/combogenomics/medusa" =
+rel=3D"nofollow">https://github.com/combogenomics/medusa</a> </p></li>
+<li><p>ntJoint <a class=3D"external-link" data-card-appearance=3D"inline" h=
+ref=3D"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7320612/" rel=3D"nofoll=
+ow">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7320612/</a> </p></li>
+<li><p>synteny tools<a class=3D"external-link" data-card-appearance=3D"inli=
+ne" href=3D"https://bioinformaticshome.com/tools/wga/wga.html#gsc.tab=3D0" =
+rel=3D"nofollow">https://bioinformaticshome.com/tools/wga/wga.html#gsc.tab=
+=3D0</a> </p></li>
+<li><p>tool voor scaffolds naar chromosomen: <a class=3D"external-link" dat=
+a-card-appearance=3D"inline" href=3D"https://genomebiology.biomedcentral.co=
+m/articles/10.1186/s13059-019-1829-6" rel=3D"nofollow">https://genomebiolog=
+y.biomedcentral.com/articles/10.1186/s13059-019-1829-6</a> </p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>15-9-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>plotten resultaten mummer</p></li>
+<li><p>onderzoeken hoe ik van de scaffolds ga controleren of ze uit de juis=
+te contigs bestaan in het AGP bestand</p></li>
+<li><p>mummer delta filteren</p></li>
+<li><p>plot mummer proberen te begrijpen en mooi te formatten voor verslag<=
+/p></li>
+<li><p>xming ingesteld en wsl gerunt en interactief plot gemaakt </p></li>
+<li><p><span class=3D"inline-comment-marker" data-ref=3D"c74420cd-09d4-4412=
+-9ccc-26acaee3873e">uitzoeken hoe ik een lijn kan krijgen in mummer plot en=
+ niet random dots zonder volgorde</span></p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>onderzoek RagTag alternatief chromosomer:<a class=3D"external-link" =
+href=3D"https://github.com/malonge/RagTag/wiki/merge" rel=3D"nofollow">merg=
+e =C2=B7 malonge/RagTag Wiki =C2=B7 GitHub</a></p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id=3D"expander-421073304" class=3D"expand-container">
+<div id=3D"expander-control-421073304" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"4c016ec99308c2906394c6fdeb6cc87b" widt=
+h=3D"16" height=3D"16"></span><span class=3D"expand-control-text">week 4</s=
+pan>
+</div>
+<div id=3D"expander-content-421073304" class=3D"expand-content">
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"ce42cee8-ebf4-43e5-b89d-7c9=
+98e418853" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 74.0px;">
+<col style=3D"width: 61.0px;">
+<col style=3D"width: 312.0px;">
+<col style=3D"width: 93.0px;">
+<col style=3D"width: 190.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p><strong>4</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Datum</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan project:</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan verslagen:</strong></p></t=
+h>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan research:</strong></p></th=
+>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>18-9-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>wtdbg2 opnieuw runnen </p></li>
+<li><p>contigs van scaffold 1 in een bestand zetten en dit scaffold 1 in ee=
+n bestand zetten om opnieuw deze te mappen om agp file te controleren</p></=
+li>
+<li><p>minimap aangezet op contigs om te kijken of ze op de scaffold van ag=
+p bestand mappen</p></li>
+<li><p>grootte chromosomen limgroup en ncbi vergelijken</p></li>
+<li><p>genetic map en chr1.fna joinen</p></li>
+<li><p>fastas MPDI01000001.1 en MPDI01000012.1 downloaden</p></li>
+<li><p>lijst componenten maken die een marker hebben</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>onderzoek hoe ik de sequenties krijg van lijst ids in ncbi <a class=
+=3D"external-link" data-card-appearance=3D"inline" href=3D"https://www.ncbi=
+.nlm.nih.gov/books/NBK3837/#EntrezHelp.Writing_Advanced_Sea" rel=3D"nofollo=
+w">https://www.ncbi.nlm.nih.gov/books/NBK3837/#EntrezHelp.Writing_Advanced_=
+Sea</a> te veel data</p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>19-9-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>fastas opgehaald entrez met efetch uit nuccore database</p></li>
+<li><p>script maken voor als fastas ophalen tussendoor stopt</p></li>
+<li><p>plan maken nieuwe contigs aan oude contigs koppelen (staat in plan v=
+an aanpak)</p></li>
+<li><p>plan van aanpak klein stukje uitgebreid</p></li>
+<li><p>stagebegeleider school paar vragen over stagebezoek gesteld</p></li>
+<li><p>contig to scaffold agp tools</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>onderzoek hoe veel seconden per requestst NCBI <a class=3D"external-=
+link" data-card-appearance=3D"inline" href=3D"https://www.ncbi.nlm.nih.gov/=
+home/about/policies/" rel=3D"nofollow">https://www.ncbi.nlm.nih.gov/home/ab=
+out/policies/</a> </p></li>
+<li><p>waarom agp maken oud genoom </p></li>
+<li><p>onderzoek hoe oude contigs en nieuwe contigs koppelen </p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>20-9-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>fasta bestanden maken voor elk chromosoom van de contigs</p></li>
+<li><p>code schrijven om alle informatie uit de headers te krijgen en bij d=
+e andere te zetten door lengtes te matchen want object naam het zelfde in j=
+oinedMapAndAGPchr1.csv en chr1contigs.fasta</p></li>
+<li><p>code runnen voor alle chromosomen</p></li>
+<li><p>mappen oude contigs op nieuwe contigs met mummer</p></li>
+<li><p>documenten logboek, plan van aanpak en to do nakijken en opruimen</p=
+></li>
+<li><p>header aangepast omdat mummer ze niet kon lezen</p></li>
+<li><p>minimap runnen en parameters meerdere keren aanpassen zodat file nie=
+t groter is dan fasta omdat alles op zo veel plekken mapt</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>uitzoeken hoe ik header van fastas van contigs huidig referentiegeno=
+om aan ga vullen</p></li>
+<li><p>onderzoek naar error die is steeds opnieuw krijg mummer<a class=3D"e=
+xternal-link" data-card-appearance=3D"inline" href=3D"https://sourceforge.n=
+et/p/mummer/mailman/mummer-help/thread/4C9CDBBB.1060705@bcgsc.ca/" rel=3D"n=
+ofollow">https://sourceforge.net/p/mummer/mailman/mummer-help/thread/4C9CDB=
+BB.1060705@bcgsc.ca/</a> </p></li>
+<li><p>andere tool zoeken die geen postnuc returnednon-zero error geeft <a =
+class=3D"external-link" data-card-appearance=3D"inline" href=3D"https://tim=
+kahlke.github.io/LongRead_tutorials/ASS_M.html" rel=3D"nofollow">https://ti=
+mkahlke.github.io/LongRead_tutorials/ASS_M.html</a> <a class=3D"external-li=
+nk" data-card-appearance=3D"inline" href=3D"https://github.com/lh3/minimap2=
+/issues/222" rel=3D"nofollow">https://github.com/lh3/minimap2/issues/222</a=
+> <a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https:=
+//bioinformatics.stackexchange.com/questions/10552/convert-paf-format-to-sa=
+m-bam-format" rel=3D"nofollow">https://bioinformatics.stackexchange.com/que=
+stions/10552/convert-paf-format-to-sam-bam-format</a> </p></li>
+<li><p>paf file naar delta file <a class=3D"external-link" data-card-appear=
+ance=3D"inline" href=3D"https://gist.github.com/malonge/d347a0061eab77d9ebe=
+b9181b7a9ff31" rel=3D"nofollow">https://gist.github.com/malonge/d347a0061ea=
+b77d9ebeb9181b7a9ff31</a> </p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>21-9-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>andere chromosomen ook met minimap mappen</p></li>
+<li><p>paf bestand omzetten naar delta bestand</p></li>
+<li><p>headers aanpassen huidige contigs</p></li>
+<li><p>plotten mummer</p></li>
+<li><p>automatisch sluiten gnuplot uitgezet</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>stuk superscaffolds schrijven</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>onderzoek welke parameters show-coords, delta-filter en tiling <a cl=
+ass=3D"external-link" data-card-appearance=3D"inline" href=3D"https://mumme=
+r.sourceforge.net/manual/#coords" rel=3D"nofollow">https://mummer.sourcefor=
+ge.net/manual/#coords</a> </p></li>
+<li><p>onderzoek ragout en chromosomer <a class=3D"external-link" data-card=
+-appearance=3D"inline" href=3D"https://genome.cshlp.org/content/early/2018/=
+10/19/gr.236273.118" rel=3D"nofollow">https://genome.cshlp.org/content/earl=
+y/2018/10/19/gr.236273.118</a> </p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>22-9-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>delta file filteren </p></li>
+<li><p>show-coords op delta file</p></li>
+<li><p>show-tiling op delta file</p></li>
+<li><p>chromosomer downloaden</p></li>
+<li><p>niet marker fastas wegfilteren</p></li>
+<li><p>fragmentmap maken chromosomer</p></li>
+<li><p>mummer opnieuw runnen</p></li>
+<li><p>headers contigs flye aangepast zodat er geen . in de header staat en=
+ mummer het leest</p></li>
+<li><p>blast installeren</p></li>
+<li><p>alignment file maken blastn voor chromosomer</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>uitzoeken hoe ik aan een alignmentfile kom voor de fragmentmap voor =
+chromosomer (blastn)</p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id=3D"expander-582847836" class=3D"expand-container">
+<div id=3D"expander-control-582847836" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"4c016ec99308c2906394c6fdeb6cc87b" widt=
+h=3D"16" height=3D"16"></span><span class=3D"expand-control-text">week 5</s=
+pan>
+</div>
+<div id=3D"expander-content-582847836" class=3D"expand-content">
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"05f11fbd-4a21-41d3-881d-336=
+ae19dfe48" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 74.0px;">
+<col style=3D"width: 61.0px;">
+<col style=3D"width: 312.0px;">
+<col style=3D"width: 93.0px;">
+<col style=3D"width: 190.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p></p><p></p></th>
+<th class=3D"confluenceTh"><p><strong>Datum</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan project:</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan verslagen:</strong></p></t=
+h>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan research:</strong></p></th=
+>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>25-9-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>plotten mummer resultaten: nieuwe contigs tegen oude contigs, oude c=
+ontigs tegen nieuwe contigs, oude contigs tegen nieuwe scaffolds</p></li>
+<li><p>ragtag downloaden</p></li>
+<li><p>ragtag runnen</p></li>
+<li><p>python script schrijven om scaffolds die op volgorde liggen van de d=
+e MPDIs in een apart fasta bestand te zetten</p></li>
+<li><p>resultaten van script om volgorde te krijgen met mummer tegen refseq=
+ alignen</p></li>
+<li><p>ragtag opnieuw want ik heb verkeerde sspace resultaat gebruikt</p></=
+li>
+<li><p>blast opnieuw runnen met juist sspace resultaat</p></li>
+<li><p>delta file met nieuwe scaffolds op juiste volgorde filteren, mapping=
+ info krijgen tiling doen en plotten mummer</p></li>
+<li><p>parameters aanpassen van mummer en opnieuw filteren en plotten</p></=
+li>
+<li><p>agp maken van nieuwe scaffolds op nieuwe contigs alleen klopt orient=
+atie niet</p></li>
+<li><p>proberen fragmentmap te maken maar ik denk dat alignment niet juist =
+format is</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>uitzoeken hoe ik de locatie van de oude contigs naar de nieuwe zet a=
+angezien meerdere nieuwe contigs op oude contig mappen</p></li>
+<li><p>uitzoeken hoe ik paf bestand van ragtag kan plotten<a class=3D"exter=
+nal-link" data-card-appearance=3D"inline" href=3D"https://bioinformatics.st=
+ackexchange.com/questions/14882/how-do-you-visualize-minimap2s-paf-output-f=
+ormat" rel=3D"nofollow">https://bioinformatics.stackexchange.com/questions/=
+14882/how-do-you-visualize-minimap2s-paf-output-format</a> </p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>26-9-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>opnieuw runnen van alles met verkeerde sspace scaffolds</p></li>
+<li><p>merkers tegen nieuwe scaffolds mappen mummer</p></li>
+<li><p>downloaden complete genoom mitochondrien en chloroplast NCBI</p></li=
+>
+<li><p>plotten markers tegen scaffolds op volgorde</p></li>
+<li><p>script python schrijven om agp juiste orientatie te geven en juiste =
+volgorde</p></li>
+<li><p>unplaced scaffolds ook in agp zetten</p></li>
+<li><p>fasta bestand maken met agptools vanuit agp en contigs</p></li>
+<li><p>mummer runnen op resultaten van fasta met geordende en georienteerde=
+ scaffolds</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>uitzoeken hoe samenvoegen agp van ragtag en flyespace agp</p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>27-9-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>delta file georienteerde scaffolds filteren</p></li>
+<li><p>show-coords op delta file georienteerde scaffolds</p></li>
+<li><p>show-tiling op delta file georienteerde scaffolds</p></li>
+<li><p>plotten georienteerde scaffolds</p></li>
+<li><p>presentatie voortgang maken</p></li>
+<li><p>flowchart maken voortgangsgesprek en voor in verslag </p></li>
+<li><p>stagebegeleider volledige agenda mailen</p></li>
+<li><p>plan van aanpak aangepast zodat hij weer klopt</p></li>
+<li><p>mappenstructuur aanpassen dat alles weer duidelijker is</p></li>
+<li><p>chloroplast en mitochondrien mappen met scaffolds</p></li>
+<li><p>chloroplast en mitochondrien delta filteren, mapinfo krijgen, tilen =
+en plotten</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>28-9-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>aanvullen python script die volgorde scaffolds maakt met juiste orie=
+ntatie uit mappinginfo file</p></li>
+<li><p>mummer runnen op nieuwe bestand met hopelijk juiste orientatie</p></=
+li>
+<li><p>nieuw script geschreven python juiste orientatie</p></li>
+<li><p>onderzoek of met minimap ook tabular file gemaakt kan worden in plaa=
+ts van blastn</p></li>
+<li><p>mummer opnieuw uitvoeren</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>uitzoeken hoe ik orientatie goed krijg in plot <a class=3D"external-=
+link" data-card-appearance=3D"inline" href=3D"https://mummer.sourceforge.ne=
+t/examples/#showtilingnucmer" rel=3D"nofollow">https://mummer.sourceforge.n=
+et/examples/#showtilingnucmer</a> </p></li>
+<li><p>uitzoeken hoe ik minder hits krijg in blastn <a class=3D"external-li=
+nk" data-card-appearance=3D"inline" href=3D"https://www.biostars.org/p/1313=
+29/" rel=3D"nofollow">https://www.biostars.org/p/131329/</a> <a class=3D"ex=
+ternal-link" data-card-appearance=3D"inline" href=3D"https://www.ncbi.nlm.n=
+ih.gov/books/NBK279684/" rel=3D"nofollow">https://www.ncbi.nlm.nih.gov/book=
+s/NBK279684/</a> <a class=3D"external-link" href=3D"https://www.animalgenom=
+e.org/bioinfo/resources/manuals/blast2.2.24/user_manual.pdf" rel=3D"nofollo=
+w">https://www.animalgenome.org/bioinfo/resources/manuals/blast2.2.24/user_=
+manual.pdf</a> <a class=3D"external-link" data-card-appearance=3D"inline" h=
+ref=3D"https://www.seqanswers.com/forum/bioinformatics/bioinformatics-aa/23=
+542-blastn-to-return-only-top-hit?t=3D27735" rel=3D"nofollow">https://www.s=
+eqanswers.com/forum/bioinformatics/bioinformatics-aa/23542-blastn-to-return=
+-only-top-hit?t=3D27735</a> </p></li>
+<li><p>uitzoeken waarom parameter max_target_seqs blast toch zo veel terug =
+geeft <a class=3D"external-link" href=3D"https://academic.oup.com/bioinform=
+atics/article/35/9/1613/5106166" rel=3D"nofollow">https://academic.oup.com/=
+bioinformatics/article/35/9/1613/5106166</a></p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>29-9-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>zorgen dat er geen duplicate sequenties meer in fasta met georientee=
+rde scaffolds staan</p></li>
+<li><p>mummer runnen</p></li>
+<li><p>bedenken hoe ik agp ga maken van mitochondrien en scaffolds</p></li>
+<li><p>handmatig agp voor mitochondrien gemaakt</p></li>
+<li><p>nieuw plan verzinnen orientatie goed krijgen fasta sequenties omdraa=
+ien als - bij die sequentie in tiling bestand staat werkt niet</p></li>
+<li><p>ragtag tegen scaffolds in juiste volgorde en orientatie mappen</p></=
+li>
+<li><p>code opnieuw schrijven om orientatie goed te krijgen </p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_10_1272139409.1705999360541
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/4c016ec99308c2906394c6fdeb6cc87b
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAA3NCSVQICAjb4U/gAAAAFVBMVEX/
+//9wcHBwcHBwcHBwcHBwcHBwcHA3RenHAAAAB3RSTlMAZoiZzN3/SzZomQAAAAlwSFlzAAALEgAA
+CxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAAUdEVYdENy
+ZWF0aW9uIFRpbWUANi8xLzEzOKlF0AAAACFJREFUCJljYCATsCgwqIAZTMnMyRAhsTABCIMxkVxT
+GQCLcwHyUKXpLgAAAABJRU5ErkJggg==
+------=_Part_10_1272139409.1705999360541--

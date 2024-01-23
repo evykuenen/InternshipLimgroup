@@ -1,0 +1,725 @@
+Date: Tue, 23 Jan 2024 08:44:13 +0000 (UTC)
+Message-ID: <188316493.9.1705999453118@611cc706f468>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_8_863581867.1705999453118"
+
+------=_Part_8_863581867.1705999453118
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Logboek December</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Logboek December</h1>
+    <div class=3D"Section1">
+        <div id=3D"expander-133329946" class=3D"expand-container">
+<div id=3D"expander-control-133329946" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"4c016ec99308c2906394c6fdeb6cc87b" widt=
+h=3D"16" height=3D"16"></span><span class=3D"expand-control-text">week 1</s=
+pan>
+</div>
+<div id=3D"expander-content-133329946" class=3D"expand-content">
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"57bb8c9e-2ed0-4904-a227-c4d=
+28a431809" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 100.0px;">
+<col style=3D"width: 51.0px;">
+<col style=3D"width: 279.0px;">
+<col style=3D"width: 90.0px;">
+<col style=3D"width: 130.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p><strong>14</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Datum</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan project:</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan verslagen:</strong></p></t=
+h>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan research:</strong></p></th=
+>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>4-12-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>newtonew bekijken voor duplicaties in nieuwe genoom</p></li>
+<li><p>medusa mapping resultaten bekijken</p></li>
+<li><p>alignement maken van 4 files mitochondrien gap ebi tools clustal ome=
+ga</p></li>
+<li><p>aanpassen script getOrderedContigs zodat unplaced behouden worden en=
+ ook in agp gezet worden</p></li>
+<li><p>aanzetten van meryl om db te maken voor merqury</p></li>
+<li><p>maken fasta met unplaced sequences erbij</p></li>
+<li><p>merqury runnen en code aanpassen naar juiste paden</p></li>
+<li><p>uitzoeken waarom alle resultaten merqury leeg zijn (meryl file mag g=
+een mcdat of mdixc zijn alleen meryl)</p></li>
+<li><p>nieuwere versie meryl installeren</p></li>
+<li><p>meryl opnieuw runnen</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>in verslag introductie, materiaal en methoden en resultaten nalezen =
+en commentaar bij zetten om aan te passen</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>5-12-2023</p></td>
+<td class=3D"confluenceTd"><p>niet aanwezig</p></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>6-12-2023</p></td>
+<td class=3D"confluenceTd"><p>niet aanwezig</p></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>7-12-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>uitzoeken waarom merqury niet runt</p></li>
+<li><p>merqury runnen </p></li>
+<li><p>resultaten merqury bekijken</p></li>
+<li><p>reverse complement maken van 54 van primerproduct mitochondrien</p><=
+/li>
+<li><p>code aanpassen van merqury verouderden r scripten</p></li>
+<li><p>consensus maken mitochondri=C3=ABn jalview threshold 75</p></li>
+<li><p>runnen quast lg</p></li>
+<li><p>mummer pcr producten op all contigs kijken of er een match is</p></l=
+i>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"h=
+ttps://quast.sourceforge.net/quast-lg.html" rel=3D"nofollow">https://quast.=
+sourceforge.net/quast-lg.html</a> andere tools valideren referentie niet me=
+rqury</p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>8-12-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>bekijken resultaten quast lg</p></li>
+<li><p>bekijken resultaten mummer pcr producten tegen alle contigs</p></li>
+<li><p>Gap in mitochondrien agp zetten weten nu grootte zeker en dat contig=
+ 4931 niet in de gap lag en gap grootte mitochondrien begin eind erin zette=
+n</p></li>
+<li><p>opnieuw reindexen mitochondrien</p></li>
+<li><p>opnieuw fasta van maken mitochondrien</p></li>
+<li><p>runnen quast tegen medusa scaffolds</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>bronnen materiaal en methoden allemaal nagaan en erin zetten</p></li=
+>
+<li><p>materiaal en methoden afschrijven en controle</p></li>
+<li><p>resultaten aanvullen</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id=3D"expander-1027423400" class=3D"expand-container">
+<div id=3D"expander-control-1027423400" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"4c016ec99308c2906394c6fdeb6cc87b" widt=
+h=3D"16" height=3D"16"></span><span class=3D"expand-control-text">week 2</s=
+pan>
+</div>
+<div id=3D"expander-content-1027423400" class=3D"expand-content">
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"e6956614-7865-46e4-a63d-285=
+ed220fa56" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 120.0px;">
+<col style=3D"width: 48.0px;">
+<col style=3D"width: 188.0px;">
+<col style=3D"width: 140.0px;">
+<col style=3D"width: 154.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p><strong>15</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Datum</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan project:</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan verslagen:</strong></p></t=
+h>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan research:</strong></p></th=
+>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>11-12-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>phase genomics quality control hi-c reads uitproberen</p></li>
+<li><p>alle testbestanden krijgen</p></li>
+<li><p>script aanpassen phase genomics</p></li>
+<li><p>installeren van bsub via lsf</p></li>
+<li><p>juicer runnen voor qc hi-c reads</p></li>
+<li><p>uitzoeken waarom restriction file juicer niet gevonden wordt</p></li=
+>
+<li><p>lsf downloaden ibm </p></li>
+<li><p>lsf werkend proberen te krijgen</p></li>
+<li><p>configfile lsf aanpassen</p></li>
+<li><p></p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>starten aan discussie</p></li>
+<li><p>materiaal en methoden af tot hi-c</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>kijken of juicer over te slaan is (juicer is niet over te slaan want=
+ alignment resultaten zijn nodig in 3d-dna)</p></li>
+<li><p>juicer verder uitzoeken: <a class=3D"external-link" data-card-appear=
+ance=3D"inline" href=3D"https://bioinformaticsworkbook.org/dataAnalysis/Gen=
+omeAssembly/Hybrid/Juicer_Juicebox_3dDNA_pipeline.html#gsc.tab=3D0" rel=3D"=
+nofollow">https://bioinformaticsworkbook.org/dataAnalysis/GenomeAssembly/Hy=
+brid/Juicer_Juicebox_3dDNA_pipeline.html#gsc.tab=3D0</a> </p></li>
+<li><p>uitzoeken installeren lsf <a class=3D"external-link" href=3D"https:/=
+/www.bsc.es/support/LSF/9.1.2/print/lsf_unix_install.pdf" rel=3D"nofollow">=
+https://www.bsc.es/support/LSF/9.1.2/print/lsf_unix_install.pdf</a></p></li=
+>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>12-12-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>installeren java 11 in conda enviorment</p></li>
+<li><p>opnieuw installeren lsf</p></li>
+<li><p>uitzoeken waarom foutmelding</p></li>
+<li><p>mummer scaffolds tegen referentiegenoom in juiste volgorde mappen</p=
+></li>
+<li><p>proberen juicer te runnen</p></li>
+<li><p>code aanpassen zodat bsub import niet meer nodig is in juicer en er =
+niks in clusters wordt gemaakt</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>uitzoeken hoe lsf installeren <a class=3D"external-link" data-card-a=
+ppearance=3D"inline" href=3D"https://www.ibm.com/docs/en/spectrum-lsf/10.1.=
+0?topic=3Dlinux-installing-new-lsf-cluster-lsfinstall" rel=3D"nofollow">htt=
+ps://www.ibm.com/docs/en/spectrum-lsf/10.1.0?topic=3Dlinux-installing-new-l=
+sf-cluster-lsfinstall</a> <a class=3D"external-link" data-card-appearance=
+=3D"inline" href=3D"https://www.ibm.com/docs/en/spectrum-lsf/10.1.0?topic=
+=3Dlinux-installing-new-lsf-cluster-lsfinstall" rel=3D"nofollow">https://ww=
+w.ibm.com/docs/en/spectrum-lsf/10.1.0?topic=3Dlinux-installing-new-lsf-clus=
+ter-lsfinstall</a> </p></li>
+<li><p>uitzoeken hoe java enviorment maken voor errors lsf (blijkbaar allee=
+n java 11 kan geinstalleerd worden in conda env)</p></li>
+<li><p>heatmaps uitzoeken <a class=3D"external-link" data-card-appearance=
+=3D"inline" href=3D"https://www.bioinformatics.babraham.ac.uk/projects/seqm=
+onk/Help/3%20Visualisation/3.2%20Figures%20and%20Graphs/3.2.12%20The%20HiC%=
+20Heatmap%20Plot.html" rel=3D"nofollow">https://www.bioinformatics.babraham=
+.ac.uk/projects/seqmonk/Help/3%20Visualisation/3.2%20Figures%20and%20Graphs=
+/3.2.12%20The%20HiC%20Heatmap%20Plot.html</a><a class=3D"external-link" dat=
+a-card-appearance=3D"inline" href=3D"https://medium.com/swlh/genetics-inter=
+preting-hi-c-maps-7a791a07b61e" rel=3D"nofollow">https://medium.com/swlh/ge=
+netics-interpreting-hi-c-maps-7a791a07b61e</a> <a class=3D"external-link" h=
+ref=3D"https://www.nature.com/articles/s41467-022-31112-x" rel=3D"nofollow"=
+>https://www.nature.com/articles/s41467-022-31112-x</a> </p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>13-12-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>installing carper for hi-c pipeline</p></li>
+<li><p>fout geinstalleerde hi-c pipeline proberen te verwijderen en caper o=
+pnieuw installeren</p></li>
+<li><p>hi-c pipeline installeren</p></li>
+<li><p>test of hi-c pipeline goed gedownload is</p></li>
+<li><p>opzetten docker</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>discussie afronden </p></li>
+<li><p>resultaten plaatjes bij tekst zoeken en teksten afschrijven</p></li>
+<li><p>resultaten afgerond</p></li>
+<li><p>samenvatting schrijven</p></li>
+<li><p>alle referenties in verslag</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>uitzoeken waarom caper niet geinstalleerd wil worden<a class=3D"exte=
+rnal-link" data-card-appearance=3D"inline" href=3D"https://github.com/ENCOD=
+E-DCC/chip-seq-pipeline2/issues/152" rel=3D"nofollow">https://github.com/EN=
+CODE-DCC/chip-seq-pipeline2/issues/152</a> <a class=3D"external-link" data-=
+card-appearance=3D"inline" href=3D"https://github.com/bioconda/bioconda-rec=
+ipes/pull/21536" rel=3D"nofollow">https://github.com/bioconda/bioconda-reci=
+pes/pull/21536</a> </p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>14-12-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>json maken voor hic-pipeline</p></li>
+<li><p>zoeken naar experiment voor maken json</p></li>
+<li><p>juicer runnen </p></li>
+<li><p>quast opnieuw runnen tegen current refseq</p></li>
+<li><p>script schrijven ordenen er orienteren medusa scaffolds </p></li>
+<li><p>agp naar fasta zetten</p></li>
+<li><p>fasta tegen huidige referentie plotten</p></li>
+<li><p>uitzoeken waarom errors op jason en verbeteren </p></li>
+<li><p>medusa op volgorde zetten nieuwe refseq</p></li>
+<li><p>medusa plotten nieuwe refseq</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>md superscaffolds aangevuld tot medusa</p></li>
+<li><p>dir gemaakt wat uiteindelijk opgeleverd wordt</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>15-12-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>plotten medusa scaffolds tegen nieuwe referentie en tegen oude refer=
+entie</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>verslag af maken</p></li>
+<li><p>medusa in verslag verwerken</p></li>
+<li><p></p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id=3D"expander-412738161" class=3D"expand-container">
+<div id=3D"expander-control-412738161" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"4c016ec99308c2906394c6fdeb6cc87b" widt=
+h=3D"16" height=3D"16"></span><span class=3D"expand-control-text">week 3</s=
+pan>
+</div>
+<div id=3D"expander-content-412738161" class=3D"expand-content">
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"affe6c08-258e-467b-a527-611=
+2c252ca28" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 52.0px;">
+<col style=3D"width: 61.0px;">
+<col style=3D"width: 241.0px;">
+<col style=3D"width: 207.0px;">
+<col style=3D"width: 89.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p><strong>16</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Datum</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan project:</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan verslagen:</strong></p></t=
+h>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan research:</strong></p></th=
+>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>18-12-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>uitzoeken waarom threads error juicer pipeline</p></li>
+<li><p>aanpassen <code>/mnt/data/projects/2023/2023-asp-pan-genome-evy/geno=
+me/04_Hi-c/juicer/hic-pipeline/hic/53cde47e-b192-4a4f-a98b-5e5e0310c460/cal=
+l-exit_early/execution/script</code></p></li>
+<li><p>maken restriction file en bijbehorende json juicer</p></li>
+<li><p>juicer json aanpassen en restricion file erin zetten</p></li>
+<li><p>juicer runnen</p></li>
+<li><p>quast runnen oude genoom tegen nieuwe genoom</p></li>
+<li><p>zoeken naar waar contigs waaruit scaffolds bestaan in medusa terug t=
+e vinden is (niet te vinden dus geen controle op chimeric reads)</p></li>
+<li><p>opnieuw sorteren medusa reads tegen huidige referentie en agp naar f=
+asta en plotten</p></li>
+<li><p>juiste documentatie bij scripts (bv newRefVsOldRef mito)</p></li>
+<li><p>opnieuw nieuwe ref tegen nieuwe ref minder harde parameters plotten =
+(zonder filter krijgt nog steeds niks dus opnieuw runnen)</p></li>
+<li><p>in md bestanden environments erbij zoals mummer4</p></li>
+<li><p>md bestanden mitochondri=C3=ABn volledig af alles staat klaar voor p=
+ublicatie map</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>lezen tips op verslag</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>uitzoeken wat QUAST lg precies doet<a class=3D"external-link" data-c=
+ard-appearance=3D"inline" href=3D"https://www.ncbi.nlm.nih.gov/pmc/articles=
+/PMC6022658/" rel=3D"nofollow">https://www.ncbi.nlm.nih.gov/pmc/articles/PM=
+C6022658/</a> controleert dus assembly op oude referentie (dus nieuwe conti=
+gs op oude refseq-&gt; juist resultaat)</p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>19-12-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>plotten medusa tegen current refseq</p></li>
+<li><p>mummer medusa tegen refseq niet contigs</p></li>
+<li><p>opnieuw nieuwe ref tegen nieuwe ref minder harde parameters plotten =
+(zonder filter krijgt nog steeds niks dus opnieuw runnen)</p></li>
+<li><p>quality check md af</p></li>
+<li><p>contigs md af en scripts documented</p></li>
+<li><p>scaffolds md af</p></li>
+<li><p>plan maken komende week </p></li>
+<li><p>layout maken agp medusa script </p></li>
+<li><p>uitzoeken hoe zeker van chloroplast genoom (meer dan 1 procent op ge=
+noom chloro minder dan 1 op genoom en aanpassen in verslag)</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>uitzoeken waarom zoveel duplicates BUSCO <a class=3D"external-link" =
+data-card-appearance=3D"inline" href=3D"https://www.biostars.org/p/279564/"=
+ rel=3D"nofollow">https://www.biostars.org/p/279564/</a> <a class=3D"extern=
+al-link" data-card-appearance=3D"inline" href=3D"https://www.ncbi.nlm.nih.g=
+ov/pmc/articles/PMC8476166/" rel=3D"nofollow">https://www.ncbi.nlm.nih.gov/=
+pmc/articles/PMC8476166/</a> </p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>20-12-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>coord files maken medusa tegen current genome en medusa tegen contig=
+s</p></li>
+<li><p>script agp medusa maken </p></li>
+<li><p>script maken agp naar fasta</p></li>
+<li><p>mappen medusa in contigs tegen oude en nieuwe genoom</p></li>
+<li><p>new genome to new genome lage parameters om duplicaties te zien opni=
+euw runnen</p></li>
+<li><p>met meerdere parameters tidk uitproberen en kijken welke chromosomen=
+ goed zijn en aangepast moeten worden</p></li>
+<li><p>mappen van contig 450 op current refseq als hij mapt kan hij naar he=
+t einde verschoven worden</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>alle feedback in verslag verwerken</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>21-12-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>contig 450 opnieuw mappen op current refseq vorige keer blijkbaar ni=
+euwe ref gebruikt</p></li>
+<li><p>contig 56_2 extraheren en mappen tegen current refseq</p></li>
+<li><p>geseq opnieuw runnen mitochondrial genome</p></li>
+<li><p>installeren trf finder en runnen</p></li>
+<li><p>plotten medusa in contigs tegen nieuwe referentie</p></li>
+<li><p>alle duplicate genen busco ids krijgen</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>uitzoeken wat ik moet met de chromosomen waar telomeren niet goed li=
+ggen</p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>22-12-2023</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>output mergen trf met trf2gff</p></li>
+<li><p>trf2gff runnen</p></li>
+<li><p>convert2bed uitproberen net zoals bedops en gff2bed om igv te runnen=
+</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>uitleg verslag chromosoom 9 lijkt contig 450_0 fout te liggen maar v=
+anwege merker die erop ligt kunnen we die niet verplaatsen</p></li>
+<li><p>in verslag bij mitochondrien mitochondrien agp zetten weten nu groot=
+te zeker en dat contig 4931 niet in de gap lag en gap grootte mitochondrien=
+ begin eind erin zetten en uitleg maken consenus clustal o niet gelukt</p><=
+/li>
+<li><p>in discussie aanbeveling tot HI-c sequencing als controle</p></li>
+<li><p>alle current contigs in verslag naar harkess contigs gezet</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id=3D"expander-409363042" class=3D"expand-container">
+<div id=3D"expander-control-409363042" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"4c016ec99308c2906394c6fdeb6cc87b" widt=
+h=3D"16" height=3D"16"></span><span class=3D"expand-control-text">week 4 va=
+kantie 25 december t/m 2 januari</span>
+</div>
+<div id=3D"expander-content-409363042" class=3D"expand-content">
+<p></p>
+</div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_8_863581867.1705999453118
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/4c016ec99308c2906394c6fdeb6cc87b
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAA3NCSVQICAjb4U/gAAAAFVBMVEX/
+//9wcHBwcHBwcHBwcHBwcHBwcHA3RenHAAAAB3RSTlMAZoiZzN3/SzZomQAAAAlwSFlzAAALEgAA
+CxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAAUdEVYdENy
+ZWF0aW9uIFRpbWUANi8xLzEzOKlF0AAAACFJREFUCJljYCATsCgwqIAZTMnMyRAhsTABCIMxkVxT
+GQCLcwHyUKXpLgAAAABJRU5ErkJggg==
+------=_Part_8_863581867.1705999453118--
