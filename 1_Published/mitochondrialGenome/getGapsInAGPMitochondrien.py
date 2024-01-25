@@ -296,18 +296,18 @@ def main():
     Returns:
     - None
     """
-    coord_file = "/home/student/projects/asp-pan-genome-evy/data/mitochondrien/contigsToMitochondrien/allContigstomitochondrien.coord"
+    coord_file = "../../../data/mitochondrien/contigsToMitochondrien/allContigstomitochondrien.coord"
     scaffoldorder = read_coord_file(coord_file)
     best_scaffolds = get_best_contigs(scaffoldorder)
     grouped_data = group_data(best_scaffolds)
     selected_rows = select_rows(grouped_data)
     longest_contigs = get_longest_contigs(selected_rows)
     filteredOnMatchPercentage = filter_contigs(longest_contigs, selected_rows)
-    agp_file = "/home/student/projects/asp-pan-genome-evy/data/genome/02_deNovoAssembly/scaffolds/makingAGPfile/flyeSspace.agp"
+    agp_file = "../../../data/genome/02_deNovoAssembly/scaffolds/makingAGPfile/flyeSspace.agp"
     flyeAgplist = get_info_from_agp(agp_file)
     finallist = compare_to_agp(flyeAgplist, filteredOnMatchPercentage)
     output_with_gaps = put_gaps_in_agp(finallist)
-    output_file = "/home/student/projects/asp-pan-genome-evy/data/mitochondrien/contigsToMitochondrien/NewRefVsOldRef/orderedContigsWithOrientationMitochondrienRefSeqNoDoubles.agp"
+    output_file = "../../../data/mitochondrien/contigsToMitochondrien/NewRefVsOldRef/orderedContigsWithOrientationMitochondrienRefSeqNoDoubles.agp"
     write_to_file(output_with_gaps, output_file)
 
 main()

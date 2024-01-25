@@ -64,7 +64,7 @@ def main():
 
     Prints the GC percentage and base compositions of the mitochondrial genome.
     """
-    genome_filename = '/home/student/projects/asp-pan-genome-evy/data/mitochondrien/contigsToMitochondrien/NewRefVsOldRef/newRefSeqMito.fa'
+    genome_filename = '../../../data/mitochondrien/contigsToMitochondrien/NewRefVsOldRef/newRefSeqMito.fa'
     result = calculate_gc_percentage(genome_filename)
     get_base_compositions(genome_filename)
     print(f"GC percentage of the reference genome: {result:.2f}%")

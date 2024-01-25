@@ -269,7 +269,7 @@ def write_to_output_file(output_file_path, data):
         writer.writerows(data)
 
 def main():
-    mapinfo_file_path = "/home/student/projects/asp-pan-genome-evy/data/mitochondrien/contigsToMitochondrien/allContigstomitochondrien.coord"
+    mapinfo_file_path = "../../../data/mitochondrien/contigsToMitochondrien/allContigstomitochondrien.coord"
     skip_lines = 5
     scaffoldorder = read_mapinfo_file(mapinfo_file_path, skip_lines)
     consolidated_data = consolidate_data(scaffoldorder)
@@ -279,10 +279,10 @@ def main():
     filtered_contigs = filter_longest_contigs(selected_rows)
     notDoubleContigs = not_double_contigs(selected_rows, filtered_contigs)
     filteredOnMatchPercentage = filter_on_match_percentage(notDoubleContigs)
-    flye_agp_path = "/home/student/projects/asp-pan-genome-evy/data/genome/02_deNovoAssembly/scaffolds/makingAGPfile/flyeSspace.agp"
+    flye_agp_path = "../../../data/genome/02_deNovoAssembly/scaffolds/makingAGPfile/flyeSspace.agp"
     flyeAgplist = read_flye_agp(flye_agp_path)
     finallist = compare_and_append_agp_info(filteredOnMatchPercentage, flyeAgplist)
-    output_file_path = "/home/student/projects/asp-pan-genome-evy/data/mitochondrien/contigsToMitochondrien/contigsVsOldRef/orderedContigsWithOrientationMitochondrienAllContigsNoDoubles.agp"
+    output_file_path = "../../../data/mitochondrien/contigsToMitochondrien/contigsVsOldRef/orderedContigsWithOrientationMitochondrienAllContigsNoDoubles.agp"
     write_to_output_file(output_file_path, finallist)
 
 main()
