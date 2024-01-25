@@ -13,6 +13,7 @@ Date: 19-12-2023
 from collections import defaultdict
 from Bio import SeqIO
 
+
 def read_coordinate_file(coordinaten_bestand):
     """
     Read coord file and extract contig information.
@@ -70,6 +71,7 @@ def read_coordinate_file(coordinaten_bestand):
 
     return mapping_file, contig_order, mpdi_orientation_mapping, mpdi_contig_count
 
+
 def find_most_mapped(mpdi_contig_count):
     """
     Find the most mapped contigs for each MPDI.
@@ -83,10 +85,10 @@ def find_most_mapped(mpdi_contig_count):
     most_mapped = {}
     for mpdi, contig_counts in mpdi_contig_count.items():
         most_mapped_contig = max(contig_counts, key=contig_counts.get)
-        count = contig_counts[most_mapped_contig]
         most_mapped[mpdi] = []
         most_mapped[mpdi].append(most_mapped_contig)
     return most_mapped
+
 
 def determine_orientation(mpdi_orientation_mapping, most_mapped):
     """
@@ -112,8 +114,6 @@ def determine_orientation(mpdi_orientation_mapping, most_mapped):
                         orientation_counts[orientation] += 1
                         total_coverage[orientation] += float(coverage)
 
-                most_frequent_orientation = max(orientation_counts, key=orientation_counts.get)
-
                 total_coverage_minus = total_coverage.get('-', 0.0)
                 total_coverage_plus = total_coverage.get('+', 0.0)
 
@@ -125,6 +125,7 @@ def determine_orientation(mpdi_orientation_mapping, most_mapped):
                 mpdi_orientation_mapping[mpdi] = orientations[0][0]
 
     return mpdi_orientation_mapping
+
 
 def filter_mapping(mapping_file, mpdi_orientation_mapping):
     """
@@ -146,7 +147,7 @@ def filter_mapping(mapping_file, mpdi_orientation_mapping):
                 mpdi_groups[mpdi_name] = []
             mpdi_groups[mpdi_name].append(item)
 
-        for mpdi_name, mpdi_data in mpdi_groups.items():
+        for mpdi_name, mpdi_data in mpdi_orientation_mapping.items():
             highest_coverage_item = max(mpdi_data, key=lambda x: float(x[10]))
             if float(highest_coverage_item[9]) >= 90 and float(highest_coverage_item[10]) >= 1.0:
                 if contig_name not in filtered_mapping_file:
@@ -154,6 +155,7 @@ def filter_mapping(mapping_file, mpdi_orientation_mapping):
                 filtered_mapping_file[contig_name].append(highest_coverage_item)
 
     return filtered_mapping_file
+
 
 def get_close_contigs(mapping_file, filtered_mapping_file, distance_threshold=50):
     """
@@ -174,11 +176,10 @@ def get_close_contigs(mapping_file, filtered_mapping_file, distance_threshold=50
             new_mapping_file[scaffold_name] = []
         for values in values_for_scaffold:
             for item in mapping_file[scaffold_name]:
-                item_number = int(item[11][4:].split('.')[0])
-                values_number = int(values[11][4:].split('.')[0])
                 if abs(float(item[11][4:]) - float(values[11][4:])) <= distance_threshold:
                     new_mapping_file[scaffold_name].append(item)
     return new_mapping_file
+
 
 def filter_on_coverage(new_mapping_file):
     """
@@ -213,6 +214,7 @@ def filter_on_coverage(new_mapping_file):
         filtered_mapping_result[scaffold_name] = sorted(filtered_mapping_result[scaffold_name], key=lambda x: x[11])
 
     return filtered_mapping_result
+
 
 def get_mpdi_order(filtered_mapping_result):
     """
@@ -254,6 +256,7 @@ def get_mpdi_order(filtered_mapping_result):
     all_mpdis = list(dict.fromkeys(all_mpdis))
     return all_mpdis
 
+
 def get_unique_mpdis(all_mpdis):
     """
     Get unique MPDIs from the list.
@@ -269,6 +272,7 @@ def get_unique_mpdis(all_mpdis):
         if mpdi not in new_all_mpdis:
             new_all_mpdis.append(mpdi)
     return new_all_mpdis
+
 
 def save_fasta_sequences(new_all_mpdis, mpdi_orientation_mapping, input_fasta_bestand, output_fasta_bestand):
     """
@@ -299,6 +303,7 @@ def save_fasta_sequences(new_all_mpdis, mpdi_orientation_mapping, input_fasta_be
 
     print(f"FASTA-sequenties zijn opgeslagen in {output_fasta_bestand}")
 
+
 def main():
     coordinaten_bestand = "../../../data/genome/02_deNovoAssembly/superScaffolds/getCentromereRegions/ContigsToRefseq.coord"
     mapping_file, contig_order, mpdi_orientation_mapping, mpdi_contig_count = read_coordinate_file(coordinaten_bestand)
@@ -312,5 +317,6 @@ def main():
     input_fasta_bestand = "../../../data/genome/02_deNovoAssembly/contigs/Flye_results/results_flye_V1_GoodOutput/30-contigger/contigs.fasta"
     output_fasta_bestand = "../../../data/genome/02_deNovoAssembly/superScaffolds/getCentromereRegions/juiste_volgorde_MPDIs_100verplaatsingen.fasta"
     save_fasta_sequences(new_all_mpdis, mpdi_orientation_mapping, input_fasta_bestand, output_fasta_bestand)
+
 
 main()

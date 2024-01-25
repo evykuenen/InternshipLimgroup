@@ -9,6 +9,7 @@ Date: 8-1-2024
 from collections import defaultdict
 import csv
 
+
 def read_mapinfo_file(file_path, skip_lines=5):
     """
     Read a mapinfo file and extract all scaffold information.
@@ -39,6 +40,7 @@ def read_mapinfo_file(file_path, skip_lines=5):
             scaffolds.append(data)
     return scaffolds
 
+
 def get_best_scaffolds(scaffolds):
     """
     Get the best scaffold information based on COVQ and %IDY.
@@ -65,6 +67,7 @@ def get_best_scaffolds(scaffolds):
 
     return best_scaffolds
 
+
 def sort_scaffolds(best_scaffolds):
     """
     Sort scaffolds based on chromosome and start location.
@@ -76,6 +79,7 @@ def sort_scaffolds(best_scaffolds):
     - A sorted list of scaffold information.
     """
     return sorted(best_scaffolds, key=lambda x: (x[11].split("_")[1], int(x[0])))
+
 
 def create_agp_file(sorted_scaffolds, output_file_path):
     """
@@ -94,6 +98,7 @@ def create_agp_file(sorted_scaffolds, output_file_path):
         writer = csv.writer(output_file, delimiter='\t')
         writer.writerows(agp)
 
+
 def main():
     mapinfo_file_path = "../../../data/genome/02_deNovoAssembly/superScaffolds/medusa/medusaToCurrentRefseq/medusaToOld.coord"
     output_agp_file_path = "../../../data/genome/02_deNovoAssembly/superScaffolds/medusa/getOrderOrientationScaffoldsCurrentGenome/orderedOrientedScaffolds.agp"
@@ -102,5 +107,6 @@ def main():
     best_scaffolds = get_best_scaffolds(scaffolds)
     sorted_scaffolds = sort_scaffolds(best_scaffolds)
     create_agp_file(sorted_scaffolds, output_agp_file_path)
+
 
 main()

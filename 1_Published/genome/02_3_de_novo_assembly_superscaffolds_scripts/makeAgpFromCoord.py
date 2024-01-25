@@ -8,6 +8,7 @@ Date: 8-1-2024
 from collections import defaultdict
 import csv
 
+
 def get_coord_info():
     """
     Read the coordinate information from a file and data in rows and calculate orientation.
@@ -27,7 +28,7 @@ def get_coord_info():
             fields_final = [field.split(" | ") for field in fields]
             flat_fields_final = sum(fields_final, [])
             formatted_fields = [item.strip() for sublist in flat_fields_final for item in sublist.split()]
-            orientation = "-" if int(formatted_fields[2]) > int(formatted_fields[3]) else "+" #  get orientation   
+            orientation = "-" if int(formatted_fields[2]) > int(formatted_fields[3]) else "+"  # get orientation
             data.append(formatted_fields[0])
             data.append(formatted_fields[1])
             data.append(formatted_fields[3])
@@ -45,6 +46,7 @@ def get_coord_info():
             coordinfo.append(data)
     return coordinfo
 
+
 def get_best_contig(coordinfo):
     """
     Get the best contig information per mpdi based on COVQ and %IDY.
@@ -61,7 +63,7 @@ def get_best_contig(coordinfo):
     for row in coordinfo:
         tag = row[11]  # Laatste kolom is de TAGS-kolom (mpdi)
         covq = float(100/int(row[8])*int(row[5]))  # COVQ-kolom
-        idy = float(row[6])  #  %IDY-kolom
+        idy = float(row[6])  # %IDY-kolom
         consolidated_data[tag].append((covq, idy, row))
 
     best_contigs = []
@@ -106,6 +108,7 @@ def get_best_contig(coordinfo):
             newBest_contigs.append(item)
     return newBest_contigs
 
+
 def get_chromosome(newBest_contigs):
     """
     Get unique contigs based on coverage.
@@ -149,6 +152,7 @@ def get_chromosome(newBest_contigs):
         best_contigs.append(best_contig)
     return best_contigs
 
+
 def get_mpdi_order():
     """
     Get the order of mpdis from a file.
@@ -183,6 +187,7 @@ def get_ordened_filtered_coord(mpdis_in_order, best_contigs):
             if mpdi == item[11]:
                 ordened_filtered_coord.append(item)
     return ordened_filtered_coord
+
 
 def make_agp(ordened_filtered_coord):
     """
@@ -220,6 +225,7 @@ def make_agp(ordened_filtered_coord):
         agp.append(data2)
     return agp
 
+
 def write_file(agp):
     """
     Write AGP data to a file.
@@ -231,6 +237,7 @@ def write_file(agp):
         writer = csv.writer(output_file, delimiter='\t')
         writer.writerows(agp)    
 
+
 def main():
     coordinfo = get_coord_info()
     newBest_contigs = get_best_contig(coordinfo)
@@ -239,5 +246,6 @@ def main():
     ordened_filtered_coord = get_ordened_filtered_coord(mpdis_in_order, best_contigs)
     agp = make_agp(ordened_filtered_coord)
     write_file(agp)
+
 
 main()

@@ -7,6 +7,7 @@ Date: 11-1-2024
 """
 import matplotlib.pyplot as plt
 
+
 def read_tsv(input_file_path):
     """
     Read TSV data from a file, skipping the specified number of lines.
@@ -23,6 +24,7 @@ def read_tsv(input_file_path):
             tsv_data.append(fields)
 
     return tsv_data
+
 
 def filter_and_plot_tsv(tsv_data, output_plot_path):
     """
@@ -59,6 +61,7 @@ def filter_and_plot_tsv(tsv_data, output_plot_path):
     plt.savefig(output_plot_path)
     plt.show()
 
+
 def main():
     input_file_path = "../../../data/genome/03_evaluation_genome/tidk/asparagusV2_telomeric_repeat_windows.tsv"
     output_plot_path = "../../../data/genome/03_evaluation_genome/tidk/tidk_filtered_subplots.png"
@@ -68,4 +71,6 @@ def main():
 
     # Filter and plot TSV data
     filter_and_plot_tsv(tsv_data, output_plot_path)
+
+
 main()

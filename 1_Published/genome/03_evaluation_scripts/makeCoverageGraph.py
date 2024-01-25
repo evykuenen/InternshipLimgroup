@@ -9,6 +9,7 @@ Date: 11-1-2024
 """
 import matplotlib.pyplot as plt
 
+
 def read_coverage_data(file_path):
     """
     Read coverage data from a TSV file.
@@ -22,6 +23,7 @@ def read_coverage_data(file_path):
             coverage_data.append(fields)
 
     return coverage_data
+
 
 def plot_coverage_per_chromosome(coverage_data, output_plot_path):
     """
@@ -54,11 +56,13 @@ def plot_coverage_per_chromosome(coverage_data, output_plot_path):
     plt.savefig(output_plot_path)
     plt.show()
 
+
 def main():
     input_file_path = "../../../data/genome/03_evaluation_genome/trFinder/coverage.txt"
     output_plot_path = "../../../data/genome/03_evaluation_genome/trFinder/coverage.png"
 
     coverage_data = read_coverage_data(input_file_path)
     plot_coverage_per_chromosome(coverage_data, output_plot_path)
+
 
 main()

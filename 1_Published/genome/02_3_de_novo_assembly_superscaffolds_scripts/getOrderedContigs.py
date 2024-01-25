@@ -12,6 +12,7 @@ import csv
 from collections import defaultdict
 from itertools import groupby
 
+
 def read_contigorder(file_path):
     """
     Read contig order information from coord file and return contig information.
@@ -35,7 +36,7 @@ def read_contigorder(file_path):
             fields_final = [field.split(" | ") for field in fields]
             flat_fields_final = sum(fields_final, [])
             formatted_fields = [item.strip() for sublist in flat_fields_final for item in sublist.split()]
-            if int(formatted_fields[2]) > int(formatted_fields[3]): # get right orientation
+            if int(formatted_fields[2]) > int(formatted_fields[3]):  # get right orientation
                 data.append(formatted_fields[0])
                 data.append(formatted_fields[1])
                 data.append(formatted_fields[3])
@@ -67,6 +68,7 @@ def read_contigorder(file_path):
                 data.append("+")
             contigorder.append(data)
     return contigorder 
+
 
 def get_right_orientatien(contigorder):
     """
@@ -111,9 +113,8 @@ def get_right_orientatien(contigorder):
                 if item[11] == contig:
                     item[13] = '-'  # verander de oriëntatie naar '-'
 
-    orientated_contig_order = contigorder # moet erin blijven
+    orientated_contig_order = contigorder  # moet erin blijven
     return orientated_contig_order
-
 
 
 def consolidate_data(orientated_contig_order):
@@ -127,8 +128,8 @@ def consolidate_data(orientated_contig_order):
         defaultdict: Consolidated data with contig identifiers as keys.
     """
     consolidated_data = defaultdict(list)
-    for row in orientated_contig_order: # juiste orientatie
-        tag = row[11] # contig
+    for row in orientated_contig_order:  # juiste orientatie
+        tag = row[11]  # contig
         covq = float(row[10]) 
         idy = float(row[6])
         consolidated_data[tag].append((covq, idy, row))
@@ -147,11 +148,12 @@ def get_best_contigs(consolidated_data):
     """
     best_contigs = []
     for tag, data_list in consolidated_data.items():  
-        sorted_data = sorted(data_list, key=lambda x: (x[0], x[1]), reverse=True) # eerst coverage dan id%
+        sorted_data = sorted(data_list, key=lambda x: (x[0], x[1]), reverse=True)  # eerst coverage dan id%
         best_contig = sorted_data[0][2]
         best_contigs.append(best_contig)
     best_contigs = sorted(best_contigs, key=lambda x: float(x[12][4:]))
     return best_contigs
+
 
 def filter_on_match_percentage(best_contigs):
     """
@@ -189,6 +191,7 @@ def read_flye_agp(file_path):
                 linelist.append(items)
             flyeAgplist.append(linelist)
     return flyeAgplist
+
 
 def process_finallist(flyeAgplist, filteredOnMatchPercentage):
     """
@@ -261,7 +264,7 @@ def main():
     filteredOnMatchPercentage = filter_on_match_percentage(ordered_best)
     flyeAgplist = read_flye_agp("../../../data/genome/02_deNovoAssembly/scaffolds/makingAGPfile/flyeSspace.agp")
 
-    finallist = process_finallist(flyeAgplist,filteredOnMatchPercentage)
+    finallist = process_finallist(flyeAgplist, filteredOnMatchPercentage)
     output_file_path = "../../../data/genome/02_deNovoAssembly/superScaffolds/getOrderdFilteredContigs/ContigsOrderedFilteredToRefseq/ContigsOrderedFilteredToRefseqContigs.agp"
     write_agp_to_file(finallist, output_file_path)
 

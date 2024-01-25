@@ -7,6 +7,7 @@ Date: 8-1-2024
 """
 from Bio import SeqIO
 
+
 def extract_contig_sequences(agp_file, fasta_file, output_file):
     """
     Extract contig sequences based on the information provided in the AGP file.
@@ -45,11 +46,13 @@ def extract_contig_sequences(agp_file, fasta_file, output_file):
                 else:
                     output.write(f'{contig_sequences[contig_id].seq}\n')
 
+
 def main():
     agp_file_path = '../../../data/genome/02_deNovoAssembly/superScaffolds/findUnplaced/100verplaatsingenWithUnplaced.reindexed.agp'
     fasta_file_path = '../../../data/genome/02_deNovoAssembly/contigs/Flye_results/results_flye_V1_GoodOutput/30-contigger/contigs.fasta'
     output_file_path = '../../../data/genome/02_deNovoAssembly/superScaffolds/findUnplaced/contigsPythonOrder.fa'
 
     extract_contig_sequences(agp_file_path, fasta_file_path, output_file_path)
+
 
 main()

@@ -8,6 +8,7 @@ Date: 8-1-2024
 """
 import csv
 
+
 def read_agp_file(file_path):
     """
     Read AGP file and return a list of placed elements and their lengths.
@@ -28,13 +29,17 @@ def read_agp_file(file_path):
                 total_length += int(fields[7])
     return placed_elements, total_length
 
-def read_unplaced_agp(allContigs, allContigsFlye, all_placed, agpverplaatst, mitoplaced, chloropplaced):
+
+def read_unplaced_agp(allContigs, all_placed, agpverplaatst, mitoplaced, chloropplaced):
     """
     Read AGP file and append unplaced elements to the existing unplaced set.
 
     Parameters:
-    - file_path: Path to the AGP file.
-    - unplaced_set: Set containing unplaced elements.
+    - allContigs: agp file with all contig info
+    - all_placed: all contigs placed in genome mitochondrien and chloroplast
+    - agpverplaatst: agp file with translocations current contigs
+    - mitoplaced: all contigs placed in mitochondrien
+    - chloropplaced: all contigs placed in chloroplast
 
     Returns:
     - List of placed and unplaced AGP data.
@@ -68,6 +73,7 @@ def read_unplaced_agp(allContigs, allContigsFlye, all_placed, agpverplaatst, mit
             placed_and_unplaced_agp.append(fields)
     return placed_and_unplaced_agp
 
+
 def write_agp_file(output_file_path, agp_data):
     """
     Write AGP data to an output file.
@@ -80,7 +86,8 @@ def write_agp_file(output_file_path, agp_data):
         writer = csv.writer(output_file, delimiter='\t')
         writer.writerows(agp_data)
 
-def count_unplaced_mpdis(file_path):
+
+def count_unplaced_mpdis(unplaced_mpdis):
     """
     Count the number of unplaced mpdis and their total length from the specified AGP file.
 
@@ -91,8 +98,8 @@ def count_unplaced_mpdis(file_path):
     - Tuple containing the number of unplaced mpdis and their total length.
     """
     total_unplaced_mpdis_bp = 0
-    unplaced_mpdis = set()
-    with open(file_path, "r") as agp_file:
+    unplaced_mpdis_set = set()
+    with open(unplaced_mpdis, "r") as agp_file:
         for _ in range(5):
             next(agp_file)
 
@@ -102,11 +109,12 @@ def count_unplaced_mpdis(file_path):
             flat_fields_final = sum(fields_final, [])
             formatted_fields = [item.strip() for sublist in flat_fields_final for item in sublist.split()]
             if formatted_fields[4] == "W":
-                unplaced_mpdis.add(formatted_fields[5])
+                unplaced_mpdis_set.add(formatted_fields[5])
                 total_unplaced_mpdis_bp += int(formatted_fields[7])
-    return len(unplaced_mpdis), total_unplaced_mpdis_bp
+    return len(unplaced_mpdis_set), total_unplaced_mpdis_bp
 
-def count_total_mpdis_length(file_path):
+
+def count_total_mpdis_length(total_mpdis):
     """
     Count the total length of all mpdis from the specified file.
 
@@ -117,13 +125,14 @@ def count_total_mpdis_length(file_path):
     - Total length of all mpdis.
     """
     total_length = 0
-    with open(file_path, "r") as mpdis_file:
+    with open(total_mpdis, "r") as mpdis_file:
         for line in mpdis_file:
             if line:
                 parts = line.split(': ')
                 if len(parts) > 1:
                     total_length += int(parts[2])
     return total_length
+
 
 def main():
     agpverplaatst = "../../../data/genome/02_deNovoAssembly/superScaffolds/getCentromereRegions/100Verplaatsingen/100verplaatsingen.agp"
@@ -137,18 +146,15 @@ def main():
     placed_genome, placed_bp_genome = read_agp_file(agpverplaatst)
     placed_mitochondrien, placed_bp_mitochondrien = read_agp_file(mitoplaced)
     placed_chloroplast, placed_bp_chloroplast = read_agp_file(chloropplaced)
-    
-    all_placed_bp = placed_bp_chloroplast + placed_bp_mitochondrien + placed_bp_genome
-    all_placed = placed_chloroplast + placed_mitochondrien + placed_genome
 
-    bp_all_contigs, all_contigs = read_agp_file(allContigs)
+    all_placed = placed_chloroplast + placed_mitochondrien + placed_genome
     print(len(placed_genome))
     print('----')
     print(len(all_placed))
    
     allContigsFlye, _ = read_agp_file(allContigs)
 
-    placed_and_unplaced_agp = read_unplaced_agp(allContigs, allContigsFlye, all_placed, agpverplaatst, mitoplaced, chloropplaced)
+    placed_and_unplaced_agp = read_unplaced_agp(allContigs, all_placed, agpverplaatst, mitoplaced, chloropplaced)
     write_agp_file(output_file, placed_and_unplaced_agp)
 
     total_unplaced_mpdis, total_unplaced_mpdis_bp = count_unplaced_mpdis(unplaced_mpdis)
@@ -158,5 +164,6 @@ def main():
 
     total_lenght_bp_mpdis = count_total_mpdis_length(total_mpdis)
     print("total length mpdis: " + str(total_lenght_bp_mpdis))
+
 
 main()

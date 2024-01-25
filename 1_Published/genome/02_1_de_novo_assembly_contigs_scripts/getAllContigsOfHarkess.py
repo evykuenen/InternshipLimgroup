@@ -9,6 +9,7 @@ Date: 29-11-2023
 
 from Bio import SeqIO
 
+
 def get_contigs_from_agp(agp_file, reference_genome_file):
     """Extract contig sequences from an AGP file and a reference genome file.
 
@@ -50,11 +51,13 @@ def get_contigs_from_agp(agp_file, reference_genome_file):
                     scaffold_sequences[scaffold_id] += contig_sequence[contig_start:contig_end].reverse_complement()
     return scaffold_sequences
 
+
 def write_to_output(scaffold_sequences, output_file):
     """Write scaffold sequences to an output file.
 
     Args:
-        scaffold_sequences (dict): A dictionary containing scaffold ID as keys and concatenated contig sequences as values.
+        scaffold_sequences (dict): A dictionary containing scaffold ID as keys and concatenated contig sequences as
+        values.
         output_file (str): Path to the output file.
 
     Returns:
@@ -64,11 +67,13 @@ def write_to_output(scaffold_sequences, output_file):
         for scaffold_id, sequence in scaffold_sequences.items():
             output.write(f">{scaffold_id}\n{sequence}\n")
 
-def main(): 
+
+def main():
     agp_file = "../../../data/genome/02_deNovoAssembly/annotation_releases/annotation_releases/4686/100/GCF_001876935.1_Aspof.V1/GCF_001876935.1_Aspof.V1_assembly_structure/Primary_Assembly/assembled_chromosomes/AGP/chr10.comp.agp"
     reference_genome_file = "../../../data/genome/02_deNovoAssembly/annotation_releases/annotation_releases/4686/100/GCF_001876935.1_Aspof.V1/GCF_001876935.1_Aspof.V1_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr10.fna"
     scaffold_sequences = get_contigs_from_agp(agp_file, reference_genome_file)
     output_file = "../../../data/genome/02_deNovoAssembly/superScaffolds/getAllContigsInOldRefseq/chr10AllContigs.fa"
     write_to_output(scaffold_sequences, output_file)
+
 
 main()

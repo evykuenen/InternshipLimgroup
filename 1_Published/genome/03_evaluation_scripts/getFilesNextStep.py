@@ -9,6 +9,7 @@ Date: 11-1-2024
 """
 import csv
 
+
 def read_data(file_path):
     """
     Read data from the part 1 file and return a list of lists.
@@ -25,6 +26,7 @@ def read_data(file_path):
             fields = line.strip().split("\t")
             data.append(fields)
     return data
+
 
 def process_data(part1_data, part2_data):
     """
@@ -51,6 +53,7 @@ def process_data(part1_data, part2_data):
                 onemapbed.append(data)
     return onemapbed
 
+
 def write_to_file(data, file_path, delimiter='\t'):
     """
     Write the provided data to a file.
@@ -63,6 +66,7 @@ def write_to_file(data, file_path, delimiter='\t'):
     with open(file_path, "w") as output_file:
         writer = csv.writer(output_file, delimiter=delimiter)
         writer.writerows(data)
+
 
 def main():
     part1_file_path = '../../../data/genome/allmapsGetContigOrderCurrentContig/1_onemap/scaffolds_adjusted_markers_part1.txt'
@@ -77,5 +81,6 @@ def main():
     write_to_file(onemapbed, onemapbed_output_path)
     weights = [['AoV1', '1']]
     write_to_file(weights, weights_output_path)
+
 
 main()

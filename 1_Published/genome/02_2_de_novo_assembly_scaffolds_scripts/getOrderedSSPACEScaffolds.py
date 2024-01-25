@@ -9,17 +9,18 @@ Date: 19-12-2023
 """
 from collections import defaultdict
 
+
 def read_mapping_info(mapping_info_file_path):
     """
     Read coord file and return scaffold information.
 
     Args:
-        file_path (str): Path to the mapping information file.
+        mapping_info_file_path (str): Path to the mapping information file.
 
     Returns:
         list: Formatted data from the mapping information file.
     """
-    data = []
+    mapping_info_data = []
 
     with open(mapping_info_file_path, "r") as mapinfo_file:
         for _ in range(6):
@@ -30,37 +31,39 @@ def read_mapping_info(mapping_info_file_path):
             fields_final = [field.split(" | ") for field in fields]
             flat_fields_final = sum(fields_final, [])
             formatted_fields = [item.strip() for sublist in flat_fields_final for item in sublist.split()]
-            data.append(formatted_fields)
+            mapping_info_data.append(formatted_fields)
 
     return mapping_info_data
+
 
 def consolidate_data(mapping_info_data):
     """
     Consolidate mapping information data based on the TAGS column (MPDI).
 
     Args:
-        data (list): Formatted data from the mapping information file.
+        mapping_info_data (list): Formatted data from the mapping information file.
 
     Returns:
         defaultdict: Consolidated data with TAGS as keys.
     """
-    consolidated_data = defaultdict(list)
+    consolidated_data_result = defaultdict(list)
 
     for row in mapping_info_data:
         tag = row[12]  # Last column is the TAGS column (MPDI)
         covq = float(row[10])  # COVQ column
         idy = float(row[6])  # %IDY column
 
-        consolidated_data[tag].append((covq, idy, row))
+        consolidated_data_result[tag].append((covq, idy, row))
 
     return consolidated_data_result
+
 
 def get_best_scaffolds(consolidated_data_result):
     """
     Get the best scaffold for each TAGS (MPDI) based on COVQ and %IDY.
 
     Args:
-        consolidated_data (defaultdict): Consolidated data with TAGS as keys.
+        consolidated_data_result (defaultdict): Consolidated data with TAGS as keys.
 
     Returns:
         list: Best scaffolds based on COVQ and %IDY.
@@ -73,6 +76,7 @@ def get_best_scaffolds(consolidated_data_result):
         best_scaffolds.append(best_scaffold)
 
     return best_scaffolds
+
 
 def write_best_scaffolds_to_file(best_scaffolds, output_file_path, fasta_file_path):
     """
@@ -103,6 +107,7 @@ def write_best_scaffolds_to_file(best_scaffolds, output_file_path, fasta_file_pa
                                 break
                             output_file.write(line)
 
+
 def main():
     mapping_info_file_path = "../../../data/genome/02_deNovoAssembly/superScaffolds/newScaffoldOrContigsAgianstRefSeq/mappingInfoNewContigsV2standard_output.txt"
     output_file_path = "../../../data/genome/02_deNovoAssembly/superScaffolds/OrderedScaffoldsPythonScript/fastascaffoldsordened.fa"
@@ -111,5 +116,6 @@ def main():
     consolidated_data_result = consolidate_data(mapping_info_data)
     best_scaffolds_result = get_best_scaffolds(consolidated_data_result)
     write_best_scaffolds_to_file(best_scaffolds_result, output_file_path, fasta_file_path)
+
 
 main()

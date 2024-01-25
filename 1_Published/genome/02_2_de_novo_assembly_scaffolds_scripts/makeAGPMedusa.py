@@ -10,6 +10,7 @@ Date: 8-1-2024
 from collections import defaultdict
 import csv
 
+
 def read_coordinate_file(file_path, skip_lines=5):
     """
     Read the coordinate file and return scaffold information.
@@ -33,6 +34,7 @@ def read_coordinate_file(file_path, skip_lines=5):
             data.append(formatted_fields)
     return data
 
+
 def process_coordinate_data(data, output_orientation=True):
     """
     Process scaffold information and return a defaultdict grouped by a scaffold name.
@@ -55,6 +57,7 @@ def process_coordinate_data(data, output_orientation=True):
         consolidated_data[tag].append((covq, idy, row))
     return consolidated_data
 
+
 def get_best_data(consolidated_data):
     """
     Get the best scaffold based on COVQ and %IDY.
@@ -72,6 +75,7 @@ def get_best_data(consolidated_data):
         best_data.append(best_entry)
     return best_data
 
+
 def create_order_dict(order_scaffolds):
     """
     Create a dictionary to store the order of scaffolds.
@@ -83,6 +87,7 @@ def create_order_dict(order_scaffolds):
     - A dictionary with scaffold names as keys and their order as values.
     """
     return {name: index for index, name in enumerate(order_scaffolds)}
+
 
 def sort_data_by_order(best_data, order_dict):
     """
@@ -96,6 +101,7 @@ def sort_data_by_order(best_data, order_dict):
     - A list of sorted data.
     """
     return sorted(best_data, key=lambda item: (order_dict.get(item[12], float('inf')), item[2]))
+
 
 def generate_agp_file(sorted_data, agp_file_path):
     """
@@ -113,6 +119,7 @@ def generate_agp_file(sorted_data, agp_file_path):
     with open(agp_file_path, "w", newline='') as output_file:
         writer = csv.writer(output_file, delimiter='\t')
         writer.writerows(agp)
+
 
 def main():
     coord_reference_path = "../../../data/genome/02_deNovoAssembly/superScaffolds/medusa/getOrderOrientationScaffoldsCurrentGenome/medusaOrderedToCurrentRefseq.coord"
@@ -132,5 +139,6 @@ def main():
 
     sorted_coord_info = sort_data_by_order(best_contigs, order_dict)
     generate_agp_file(sorted_coord_info, output_agp_path)
+
 
 main()

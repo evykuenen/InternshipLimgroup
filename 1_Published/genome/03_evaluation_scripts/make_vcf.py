@@ -7,6 +7,7 @@ Date: 11-1-2024
 """
 import csv
 
+
 def read_data(file_path, skip_lines=1):
     """
     Read data from a CSV file.
@@ -22,6 +23,7 @@ def read_data(file_path, skip_lines=1):
             fields = line.strip().split("\t")
             data.append(fields)
     return data
+
 
 def convert_to_vcf(data):
     """
@@ -45,6 +47,7 @@ def convert_to_vcf(data):
         vcf.append(lines)
     return vcf
 
+
 def write_vcf(vcf_data, output_file_path):
     """
     Write VCF data to a specified output file.
@@ -53,11 +56,13 @@ def write_vcf(vcf_data, output_file_path):
         writer = csv.writer(output_file, delimiter='\t')
         writer.writerows(vcf_data)
 
+
 def main():
     input_file_path = "../../../data/genome/allmapsGetContigOrderCurrentContig/1_onemap/genetische_kaart_K397.map.csv"
     output_file_path = "../../../data/genome/allmapsGetContigOrderCurrentContig/1_onemap/asparagusV2.vcf"
     data = read_data(input_file_path)
     vcf_data = convert_to_vcf(data)
     write_vcf(vcf_data, output_file_path)
+
 
 main()
