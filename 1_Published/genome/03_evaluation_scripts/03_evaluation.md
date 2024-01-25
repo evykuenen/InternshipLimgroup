@@ -141,7 +141,7 @@ python '../../../data/genome/03_evaluation_genome/trFinder/makeCoverageGraph.py'
 get BUSCO score of contigs new reference genome
 ```bash
   docker run -it --rm \
-    -v '/home/student/projects/asp-pan-genome-evy/data/genome/02_deNovoAssembly/contigs/BUSCO-docker:/home/working' \
+    -v '../../../data/genome/02_deNovoAssembly/contigs/BUSCO-docker:/home/working' \
     -w /home/working \
     chrishah/busco-docker run_BUSCO.py \
     --in '100verplaatsingenMetUnplaced.fa' \

@@ -7,8 +7,6 @@ Author: Evy Kuenen
 Date: 19-12-2023
 
 """
-
-import pandas as pd
 from collections import defaultdict
 
 def read_mapping_info(mapping_info_file_path):
@@ -23,7 +21,7 @@ def read_mapping_info(mapping_info_file_path):
     """
     data = []
 
-    with open(file_path, "r") as mapinfo_file:
+    with open(mapping_info_file_path, "r") as mapinfo_file:
         for _ in range(6):
             next(mapinfo_file)
 
@@ -48,7 +46,7 @@ def consolidate_data(mapping_info_data):
     """
     consolidated_data = defaultdict(list)
 
-    for row in data:
+    for row in mapping_info_data:
         tag = row[12]  # Last column is the TAGS column (MPDI)
         covq = float(row[10])  # COVQ column
         idy = float(row[6])  # %IDY column
@@ -69,7 +67,7 @@ def get_best_scaffolds(consolidated_data_result):
     """
     best_scaffolds = []
 
-    for tag, data_list in consolidated_data.items():
+    for tag, data_list in consolidated_data_result.items():
         sorted_data = sorted(data_list, key=lambda x: (x[0], x[1]), reverse=True)
         best_scaffold = sorted_data[0][2]  # Select the row with the highest COVQ and %IDY
         best_scaffolds.append(best_scaffold)

@@ -1,17 +1,15 @@
 """Script for getting order and orientation of mitochondrial contigs
 
 This script gets from a coord file the orientation, the contig with the best coverage and identity on the mitochondrial genome.
-These contigs are then filtered on more then 1 percent match on the reference genome and if two contigs map to the same place the
+These contigs are then filtered on more than 1 percent match on the reference genome and if two contigs map to the same place the
 one with the longest coverge stays.
 
 Author: Evy Kuenen
 Date: 29-11-2023
 
 """
-import re
 import csv
 from collections import defaultdict
-import pandas as pd
 
 def read_mapinfo_file(file_path, skip_lines):
     """
@@ -287,5 +285,4 @@ def main():
     output_file_path = "/home/student/projects/asp-pan-genome-evy/data/mitochondrien/contigsToMitochondrien/contigsVsOldRef/orderedContigsWithOrientationMitochondrienAllContigsNoDoubles.agp"
     write_to_output_file(output_file_path, finallist)
 
-if __name__ == "__main__":
-    main()
+main()

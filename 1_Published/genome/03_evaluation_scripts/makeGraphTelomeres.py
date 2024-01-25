@@ -6,17 +6,16 @@ Date: 11-1-2024
 
 """
 import matplotlib.pyplot as plt
-import numpy as np
 
-def read_tsv(input_file_path, line_skip=1):
+def read_tsv(input_file_path):
     """
     Read TSV data from a file, skipping the specified number of lines.
     Returns a list of lists containing the data.
     """
     tsv_data = []
 
-    with open(file_path, "r") as tsv_file:
-        for _ in range(line_skip):
+    with open(input_file_path, "r") as tsv_file:
+        for _ in range(1):
             next(tsv_file)
 
         for line in tsv_file:
@@ -57,7 +56,7 @@ def filter_and_plot_tsv(tsv_data, output_plot_path):
         axs[i].set_ylim(0, 1200)
 
     plt.tight_layout()
-    plt.savefig(output_file_path)
+    plt.savefig(output_plot_path)
     plt.show()
 
 def main():

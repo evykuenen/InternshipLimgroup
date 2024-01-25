@@ -105,5 +105,5 @@ python '../../../data/genome/03_evaluation_genome/get_bed_file_gaps/get_bed_gaps
 # liftover
 liftover of genes
 ```bash
-./liftOver -gff  '../../../gff3/gff_annotv0.2.edit.gff3' '../../../data/genome/03_evaluation_genome/get_chain_file/forward.chain' '/home/student/projects/asp-pan-genome-evy/data/genome/03_evaluation_genome/get_chain_file/liftOver/genomeEvy.gff3' '../../../data/genome/03_evaluation_genome/get_chain_file/liftOver/unmapped'
+./liftOver -gff  '../../../gff3/gff_annotv0.2.edit.gff3' '../../../data/genome/03_evaluation_genome/get_chain_file/forward.chain' '../../../data/genome/03_evaluation_genome/get_chain_file/liftOver/genomeEvy.gff3' '../../../data/genome/03_evaluation_genome/get_chain_file/liftOver/unmapped'
 ```

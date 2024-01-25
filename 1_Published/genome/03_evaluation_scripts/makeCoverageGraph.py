@@ -8,7 +8,6 @@ Date: 11-1-2024
 
 """
 import matplotlib.pyplot as plt
-import numpy as np
 
 def read_coverage_data(file_path):
     """
@@ -52,7 +51,7 @@ def plot_coverage_per_chromosome(coverage_data, output_plot_path):
         axs[i].get_xaxis().get_major_formatter().set_scientific(False)
 
     plt.tight_layout()
-    plt.savefig(output_file_path)
+    plt.savefig(output_plot_path)
     plt.show()
 
 def main():

@@ -5,11 +5,8 @@ Author: Evy Kuenen
 Date: 8-1-2024
 
 """
-import pandas as pd
 from collections import defaultdict
 import csv
-import os
-import ast
 
 def get_coord_info():
     """
@@ -20,7 +17,7 @@ def get_coord_info():
     """
     coordinfo = []
     skip_lines = 5
-    with open("/home/student/projects/asp-pan-genome-evy/data/genome/02_deNovoAssembly/superScaffolds/getCentromereRegions/100Verplaatsingen/ContigsOrderedFilteredToRefseqV2WithGroupedCentromeres.coord", "r") as coordfile:
+    with open("../../../data/genome/02_deNovoAssembly/superScaffolds/getCentromereRegions/100Verplaatsingen/ContigsOrderedFilteredToRefseqV2WithGroupedCentromeres.coord", "r") as coordfile:
         for _ in range(skip_lines):
             next(coordfile) 
             
@@ -160,7 +157,7 @@ def get_mpdi_order():
     - A list of mpdis in order.
     """
     mpdis_in_order = []
-    with open('/home/student/projects/asp-pan-genome-evy/data/genome/02_deNovoAssembly/superScaffolds/getCentromereRegions/juiste_volgorde_MPDIs_100verplaatsingen.fasta', "r") as mpdi_order:
+    with open('../../../data/genome/02_deNovoAssembly/superScaffolds/getCentromereRegions/juiste_volgorde_MPDIs_100verplaatsingen.fasta', "r") as mpdi_order:
         for line in mpdi_order:
             if line.startswith('>'):
                 line2 = line.replace(">", "").strip()
@@ -230,7 +227,7 @@ def write_file(agp):
     Parameters:
     - agp: List of AGP data.
     """
-    with open("/home/student/projects/asp-pan-genome-evy/data/genome/02_deNovoAssembly/superScaffolds/getCentromereRegions/100Verplaatsingen/100verplaatsingen.agp", "w") as output_file:
+    with open("../../../data/genome/02_deNovoAssembly/superScaffolds/getCentromereRegions/100Verplaatsingen/100verplaatsingen.agp", "w") as output_file:
         writer = csv.writer(output_file, delimiter='\t')
         writer.writerows(agp)    
 

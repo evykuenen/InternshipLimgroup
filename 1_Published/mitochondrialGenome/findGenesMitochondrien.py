@@ -1,3 +1,13 @@
+"""Script for finding genes in mitochondrien
+
+This script finds all genes that were found with geseq in the mitochodrien from the gff file that was outputted.
+
+Author: Evy Kuenen
+Date: 21-12-2024
+
+"""
+
+
 def parse_gff_file(gff_file):
     """
     Parse the GFF3 file and extract the gene information from the mitochondrien.

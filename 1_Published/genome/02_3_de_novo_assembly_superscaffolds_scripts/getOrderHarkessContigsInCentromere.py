@@ -10,9 +10,7 @@ Author: Evy Kuenen
 Date: 19-12-2023
 
 """
-import csv
 from collections import defaultdict
-from operator import itemgetter
 from Bio import SeqIO
 
 def read_coordinate_file(coordinaten_bestand):

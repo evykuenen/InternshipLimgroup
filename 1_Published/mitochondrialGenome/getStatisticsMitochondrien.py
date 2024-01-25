@@ -1,3 +1,11 @@
+"""Script for getting statistics of the new mitochondrial genome
+
+This script gets from a fasta file the GC percentage and the base composition.
+
+Author: Evy Kuenen
+Date: 18-12-2023
+
+"""
 from Bio import SeqIO
 
 def calculate_gc_percentage(genome_filename):

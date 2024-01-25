@@ -7,7 +7,6 @@ Date: 8-1-2024
 
 """
 import csv
-import os
 
 def read_agp_file(file_path):
     """
@@ -141,14 +140,8 @@ def main():
     
     all_placed_bp = placed_bp_chloroplast + placed_bp_mitochondrien + placed_bp_genome
     all_placed = placed_chloroplast + placed_mitochondrien + placed_genome
-    
-    # print("total bp placed new genome: " + str(placed_bp_genome))
 
     bp_all_contigs, all_contigs = read_agp_file(allContigs)
-    # print("total length bp new contigs without gaps: " + str(bp_all_contigs))
-    # print("all placed new genome:" + str(len(all_placed)))
-    # print("all contigs new genome:" + str(all_contigs))
-    # print(len(placed_mitochondrien))
     print(len(placed_genome))
     print('----')
     print(len(all_placed))

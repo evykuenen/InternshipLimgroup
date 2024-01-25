@@ -70,9 +70,9 @@ sed 's/ .*//' '../../../data/genome/02_deNovoAssembly/superScaffolds/medusa/draf
 sed 's/ .*//' '../../../data/genome/02_deNovoAssembly/superScaffolds/medusa/draftsFolder/Zea_mays.Zm-B73-REFERENCE-NAM-5.0.dna.toplevel.fa.gz' > '../../../data/genome/02_deNovoAssembly/superScaffolds/medusa/draftsFolder/right_headers/Zea_mays_right_headers.fa'
 ```
 
-in medusa script: netcon_mummer.py change 'cpickle' import to 'pickle' line 5 
+in MeDuSa script: netcon_mummer.py change 'cpickle' import to 'pickle' line 5 
 
-running medusa
+running MeDuSa
 ```bash
 cp '../../refseq/AsparagusCHR_V1.1.fa' '../../../data/genome/02_deNovoAssembly/superScaffolds/medusa/draftsFolder/right_headers/AsparagusCHR_V1.1.fa'
 
@@ -80,7 +80,7 @@ medusa -i '../../../data/genome/02_deNovoAssembly/contigs/Flye_results/results_f
 ```
 
 # 6. ordering MeDuSa scaffolds 
-mapping medusa scaffolds to harkess refseq
+mapping MeDuSa scaffolds to harkess refseq
 ```bash
 nucmer -p '../../../data/genome/02_deNovoAssembly/superScaffolds/medusa/medusaToCurrentRefseq/medusaToOld' \
 '../../../refseq/AsparagusCHR_V1.1.fa' -l 200 -c 100 \
@@ -97,7 +97,7 @@ making coord file of medusa scaffolds to harkess refseq
 show-coords -qcl '../../../data/genome/02_deNovoAssembly/superScaffolds/medusa/medusaToCurrentRefseq/medusaToOld.delta' > '../../../data/genome/02_deNovoAssembly/superScaffolds/medusa/medusaToCurrentRefseq/medusaToOld.coord'
 ```
 
-making agp with ordered medusa scaffolds
+making agp with ordered MeDuSa scaffolds
 ```bash
 python '../../../data/genome/02_deNovoAssembly/superScaffolds/medusa/getOrderOrientationScaffoldsCurrentGenome/getOrderedContigsMedusa.py' 
 ```

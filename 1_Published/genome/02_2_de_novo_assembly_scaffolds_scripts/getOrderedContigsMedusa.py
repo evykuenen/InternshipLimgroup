@@ -6,7 +6,6 @@ Author: Evy Kuenen
 Date: 8-1-2024
 
 """
-import pandas as pd
 from collections import defaultdict
 import csv
 

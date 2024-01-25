@@ -45,7 +45,7 @@ def extract_contig_sequences(agp_file, fasta_file, output_file):
                 else:
                     output.write(f'{contig_sequences[contig_id].seq}\n')
 
-def main()
+def main():
     agp_file_path = '../../../data/genome/02_deNovoAssembly/superScaffolds/findUnplaced/100verplaatsingenWithUnplaced.reindexed.agp'
     fasta_file_path = '../../../data/genome/02_deNovoAssembly/contigs/Flye_results/results_flye_V1_GoodOutput/30-contigger/contigs.fasta'
     output_file_path = '../../../data/genome/02_deNovoAssembly/superScaffolds/findUnplaced/contigsPythonOrder.fa'

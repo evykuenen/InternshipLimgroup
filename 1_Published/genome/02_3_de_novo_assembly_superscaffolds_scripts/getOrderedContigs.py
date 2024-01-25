@@ -10,7 +10,6 @@ Date: 19-12-2023
 
 import csv
 from collections import defaultdict
-from operator import itemgetter
 from itertools import groupby
 
 def read_contigorder(file_path):
@@ -81,7 +80,7 @@ def get_right_orientatien(contigorder):
     """
     orientation_mapping = {}
 
-    contigorder.sort(key=lambda x: x[11]) # maakt volgorde kapot
+    contigorder.sort(key=lambda x: x[11])
     grouped_contigs = {key: list(group) for key, group in groupby(contigorder, key=lambda x: x[11])}
 
     for key, group in grouped_contigs.items():

@@ -32,8 +32,6 @@ def get_contigs_from_agp(agp_file, reference_genome_file):
             fields = line.strip().split("\t")
             if fields[4] == "W":
                 scaffold_id = fields[5]
-                scaffold_start = int(fields[6]) - 1 
-                scaffold_end = int(fields[7])
                 contig_id = fields[0]
                 contig_start = int(fields[1]) - 1
                 contig_end = int(fields[2])

@@ -1,8 +1,3 @@
-import re
-import csv
-from collections import defaultdict
-import pandas as pd
-
 """Script for getting order and orientation of mitochondrial contigs and putting gaps in agp
 
 This script gets from a coord file the orientation, the contig with the best coverage and identity on the mitochondrial genome.
@@ -13,6 +8,8 @@ Author: Evy Kuenen
 Date: 18-12-2023
 
 """
+import csv
+from collections import defaultdict
 
 def read_coord_file(coord_file):
     """
