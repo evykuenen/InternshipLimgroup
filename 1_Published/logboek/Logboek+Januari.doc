@@ -1,0 +1,694 @@
+Date: Thu, 25 Jan 2024 10:31:39 +0000 (UTC)
+Message-ID: <1779156208.13.1706178699282@6b976828f29d>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_12_77126939.1706178699282"
+
+------=_Part_12_77126939.1706178699282
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Logboek Januari</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Logboek Januari</h1>
+    <div class=3D"Section1">
+        <div id=3D"expander-511571309" class=3D"expand-container">
+<div id=3D"expander-control-511571309" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"ca50ef0c5e690c3176bde1a348e62f4bc73be7=
+90b3f830398895ce008711b3c4" width=3D"16" height=3D"16"></span><span class=
+=3D"expand-control-text">week 1 vakantie t/m 3 januari</span>
+</div>
+<div id=3D"expander-content-511571309" class=3D"expand-content">
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"57bb8c9e-2ed0-4904-a227-c4d=
+28a431809" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 105.0px;">
+<col style=3D"width: 53.0px;">
+<col style=3D"width: 257.0px;">
+<col style=3D"width: 146.0px;">
+<col style=3D"width: 169.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p><strong>17</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Datum</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan project:</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan verslagen:</strong></p></t=
+h>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan research:</strong></p></th=
+>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>4-1-2024</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>alleen contigs in juiste volgorde van zelfgemaakte ref in bestand ze=
+tten met script</p></li>
+<li><p>uitzoeken waarom blastn geen resultaten geeft bij alle duplicates (p=
+arameters maken niet uit max target seqs op 50000)</p></li>
+<li><p>nieuwe proteine database maken voor een blastx</p></li>
+<li><p>medusa in contigs tegen nieuw genoom in contigs</p></li>
+<li><p>plotten centromere regions</p></li>
+<li><p>piek centromere in chr4 controleren(4 contigs verschillende repeats =
+80% repeats)</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>soepele parameters blast n <a class=3D"external-link" data-card-appe=
+arance=3D"inline" href=3D"https://www.biostars.org/p/385903/" rel=3D"nofoll=
+ow">https://www.biostars.org/p/385903/</a> </p></li>
+<li><p>welke versie gebruikt busco <a class=3D"external-link" data-card-app=
+earance=3D"inline" href=3D"https://busco.ezlab.org/busco_userguide.html#thi=
+rd-party-components" rel=3D"nofollow">https://busco.ezlab.org/busco_usergui=
+de.html#third-party-components</a> tblastn</p></li>
+<li><p>uitzoeken hoe interpreteren centromere regions in igv <a class=3D"ex=
+ternal-link" data-card-appearance=3D"inline" href=3D"https://github.com/Imm=
+ortal2333/Telomeres_and_Centromeres" rel=3D"nofollow">https://github.com/Im=
+mortal2333/Telomeres_and_Centromeres</a> </p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>5-1-2024</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>markdown bestand maken scaffolds af gemaakt</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>conclusie herschrijven</p></li>
+<li><p>chloroplast uit verslag</p></li>
+<li><p>medusa in verslag</p></li>
+<li><p>juiste naam genoom in verslag</p></li>
+<li><p>telomeren en centromeren in verslag</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id=3D"expander-167141683" class=3D"expand-container">
+<div id=3D"expander-control-167141683" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"ca50ef0c5e690c3176bde1a348e62f4bc73be7=
+90b3f830398895ce008711b3c4" width=3D"16" height=3D"16"></span><span class=
+=3D"expand-control-text">week 2</span>
+</div>
+<div id=3D"expander-content-167141683" class=3D"expand-content">
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"fb47a55c-3e8a-4fd5-ba01-a52=
+f1701f86c" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 72.0px;">
+<col style=3D"width: 53.0px;">
+<col style=3D"width: 292.0px;">
+<col style=3D"width: 188.0px;">
+<col style=3D"width: 125.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p><strong>18</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Datum</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan project:</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan verslagen:</strong></p></t=
+h>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan research:</strong></p></th=
+>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>8-1-2024</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>medusa in contigs tegen python contigs plotten en in verslag zetten<=
+/p></li>
+<li><p>mitochondrien sequenties in agp met chromosomen zetten als geplaatst=
+e sequentie</p></li>
+<li><p>markdown files scaffolds af </p></li>
+<li><p>markdown file super scaffolds af</p></li>
+<li><p>documentatie van scripts in superscaffolds</p></li>
+<li><p>paden in scripts naar relatieve paden zetten</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>feedback jan verwerken </p></li>
+<li><p>appendix b in lijst zetten </p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>9-1-2024</p></td>
+<td class=3D"confluenceTd"><p><strong>verslagdag op de HAN</strong></p>
+<ul>
+<li><p>parameters in verslag mummerplot</p></li>
+<li><p>aan rekensom werken</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>script in verslag verwerken</p></li>
+<li><p>bronnen</p></li>
+<li><p>kleine dingen aanpassen</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>10-1-2024</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>presentatie 18 januari in elkaar zetten</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>feedback docenten verwerkt</p></li>
+<li><p>kijken naar kansberekeningssommen</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>kijken naar hoe groot kans is op telomere sequentie</p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>11-1-2024</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>evaluatie in markdownfiles</p></li>
+<li><p>agp maken met chloroplast, mitochondrien en genoom</p></li>
+<li><p>script find unplaced herschrijven</p></li>
+<li><p>harkess contigs tegen contigs python flye</p></li>
+<li><p>BUSCO runnen</p></li>
+<li><p>rekensom pleun berekenen en uitwerken</p></li>
+<li><p>in verslag waarom wtdbg2 niet juiste resultaten</p></li>
+<li><p>Hi-C in markdown opschonen en erbij zetten</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>kopjes aanpassen</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>12-1-2024</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>zelfgeformuleerde tips verslag af geschreven</p></li>
+<li><p>persoonlijk ontwikkelingsplan nagekeken en puntjes op de i gezet</p>=
+</li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>as namen bij plaatjes mummer en titels</p></li>
+<li><p>verslag volledig nalezen voor spellingsfouten</p></li>
+<li><p>nalezen op juiste naam nieuwe genoom en oude genoom dus flye contigs=
+ en harkess genoom</p></li>
+<li><p>bijschriften figuren checken incl table</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id=3D"expander-1758631334" class=3D"expand-container">
+<div id=3D"expander-control-1758631334" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"ca50ef0c5e690c3176bde1a348e62f4bc73be7=
+90b3f830398895ce008711b3c4" width=3D"16" height=3D"16"></span><span class=
+=3D"expand-control-text">week 3 </span>
+</div>
+<div id=3D"expander-content-1758631334" class=3D"expand-content">
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"ae320773-1a1b-46b5-a0eb-eed=
+ac0465cc7" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 106.0px;">
+<col style=3D"width: 53.0px;">
+<col style=3D"width: 292.0px;">
+<col style=3D"width: 122.0px;">
+<col style=3D"width: 157.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p><strong>19</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Datum</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan project:</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan verslagen:</strong></p></t=
+h>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan research:</strong></p></th=
+>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>15-1-2024</p></td>
+<td class=3D"confluenceTd"><p><strong>verslagdag op de HAN</strong></p>
+<ul>
+<li><p>opnieuw maken plaatje telomeren</p></li>
+<li><p>nieuwe BUSCO in resultaten verwerken</p></li>
+<li><p>in codes relatieve paden en paden nakijken in md bestanden</p></li>
+<li><p>verwerken feedback in verslag </p></li>
+<li><p>busco opnieuw runnen</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>uitzoeken waarom kleuren in tabellen mitochon=
+dri=C3=ABn (gewoon ter categorisering geen belangrijke reden)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>16-1-2024</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>2e busco toegevoegd markdown files</p></li>
+<li><p>install dependencies markdown nagekeken en aangevuld </p></li>
+<li><p>scripts documentatie nagekeken</p></li>
+<li><p>hic in markdown bestanden install dependencies</p></li>
+<li><p>qc voor aardbei</p></li>
+<li><p>presentatie aanpassen donderdag</p></li>
+<li><p>maken restriction file aardbei voor hi-c</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>in verslag scripts tabel aanvullen met of het mijn scripts zijn</p><=
+/li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>17-1-2024</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>opnieuw runnen qc aardbei na samblast commando veranderen</p></li>
+<li><p>chain file krijgen vanuit delta file</p></li>
+<li><p>bed bestand maken met gaps</p></li>
+<li><p>presentatie nog een keer nalezen en oefenen</p></li>
+<li><p>meeting pleun statistiek som</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>liftover zoeken genen (chain file nodig)</p></li>
+<li><p>uitzoeken waarom caper het niet doet</p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>18-1-2024</p></td>
+<td class=3D"confluenceTd"><p><strong>presentatie stagebedrijf</strong></p>
+<ul>
+<li><p>presentatie doornemen</p></li>
+<li><p>tar file maken </p></li>
+<li><p>errors hic pipeline oplossen</p></li>
+<li><p>zoeken welke contigs op verkeerde chromosomen liggen</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>qBUSCO score in discussie </p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>19-1-2024</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>zoeken welke contigs op verkeerde chromosomen liggen</p></li>
+<li><p>script origineel aanpassen</p></li>
+<li><p>alle veranderingen controleren chromosoom (moet opnieuw)</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>verslag feedback jan verwerken</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id=3D"expander-758639640" class=3D"expand-container">
+<div id=3D"expander-control-758639640" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"ca50ef0c5e690c3176bde1a348e62f4bc73be7=
+90b3f830398895ce008711b3c4" width=3D"16" height=3D"16"></span><span class=
+=3D"expand-control-text">week 4 </span>
+</div>
+<div id=3D"expander-content-758639640" class=3D"expand-content">
+<p></p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"a544e5c2-299f-4976-8d3f-5b7=
+f24c92392" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 74.0px;">
+<col style=3D"width: 73.0px;">
+<col style=3D"width: 253.0px;">
+<col style=3D"width: 177.0px;">
+<col style=3D"width: 153.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p><strong>20</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Datum</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan project:</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan verslagen:</strong></p></t=
+h>
+<th class=3D"confluenceTh"><p><strong>Wat gedaan research:</strong></p></th=
+>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>22-1-2024</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>uit zoeken of het fout gaan in comparechromosomelocation of makeagpf=
+romcoord (makeagpfromcoord str =E2=86=92 int)</p></li>
+<li><p>nieuwe delta file maken nieuwe genoom mummer</p></li>
+<li><p>nakijken markdown bestanden</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>laatste feedback verwerkt </p></li>
+<li><p>liftover in verslag</p></li>
+<li><p>2e busco in verslag</p></li>
+<li><p>opzet reflectie verslag</p></li>
+<li><p>verslag nakijken op bronnen en afkortingen </p></li>
+<li><p>summary inkorten</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>23-1-2024</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>github maken scripts en markdown bestanden jan overleggen</p></li>
+<li><p>liftover opnieuw met nieuwe delta file</p></li>
+<li><p>hic pipeline runnen na tar bestanden aangepast te hebben aardbei</p>=
+</li>
+<li><p>github alles overzetten</p></li>
+<li><p>crossmap uitproberen</p></li>
+<li><p>als merker meerdere keren voorkomt en in het chromosoom dat hij zit =
+voorkomt haal eruit wat niet in het chromosoom zit als hij alleen in de ver=
+keerde voorkomt voeg toe aan andere lijst maar laat erin staan</p><p></p></=
+li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>bron van eigen githubpagina toegevoegd</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>24-1-2024</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>uitzoeken wat er met AspV1_04.1096 is gebeurt</p></li>
+<li><p>filter delta file newtoold 200</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>verslag laatste keer nalezen en aanpassingen maken</p></li>
+<li><p>reflectieverslag schrijven</p></li>
+<li><p>nakijken persoonlijk ontwikkelingsplan</p></li>
+<li><p>nakijken zelfgeformuleerde tips</p></li>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>25-1-2024</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>python scripts nakijken pycharm op imports</p></li>
+<li><p>nakijken md bestanden</p></li>
+<li><p>alle scripts nalopen en documenteren waar extra nodig is</p></li>
+<li><p>plotten new ref to old ref voor liftover opnieuw na aanpassingen pyt=
+hon script </p></li>
+<li><p>alles in github zetten</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>verslag laatste keer doorlezen en laatste feedback verwerken</p></li=
+>
+</ul></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>26-1-2024</p></td>
+<td class=3D"confluenceTd"><p>verslagdag op de HAN</p><p>laatste dag stage<=
+/p></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_12_77126939.1706178699282
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/ca50ef0c5e690c3176bde1a348e62f4bc73be790b3f830398895ce008711b3c4
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAA3NCSVQICAjb4U/gAAAAFVBMVEX/
+//9wcHBwcHBwcHBwcHBwcHBwcHA3RenHAAAAB3RSTlMAZoiZzN3/SzZomQAAAAlwSFlzAAALEgAA
+CxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAAUdEVYdENy
+ZWF0aW9uIFRpbWUANi8xLzEzOKlF0AAAACFJREFUCJljYCATsCgwqIAZTMnMyRAhsTABCIMxkVxT
+GQCLcwHyUKXpLgAAAABJRU5ErkJggg==
+------=_Part_12_77126939.1706178699282--
