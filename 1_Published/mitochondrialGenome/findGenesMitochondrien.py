@@ -58,7 +58,7 @@ def print_gene_counts(gene_count, fragment_gene_count, genes_complete, genes_fra
     print(genes_fragment)
 
 def main():
-    gff_file = "/home/student/projects/asp-pan-genome-evy/data/mitochondrien/GeseqResults/job-results-20231024143612/mitoAsparagus_mitochondrial_asparargusV2_GFF3.gff3"
+    gff_file = "../../../data/mitochondrien/GeseqResults/job-results-20231024143612/mitoAsparagus_mitochondrial_asparargusV2_GFF3.gff3"
     gene_count, fragment_gene_count, genes_complete, genes_fragment = parse_gff_file(gff_file)
     print_gene_counts(gene_count, fragment_gene_count, genes_complete, genes_fragment)
 
