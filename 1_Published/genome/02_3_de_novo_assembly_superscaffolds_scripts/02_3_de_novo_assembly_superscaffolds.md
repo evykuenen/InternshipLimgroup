@@ -96,6 +96,13 @@ python '../../../data/genome/02_deNovoAssembly/superScaffolds/findUnplaced/getCo
 perl '../../../data/genome/03_evaluation_genome/get_chain_file/crossmap_delta_to_chain.pl' --fwd_out '../../../data/genome/03_evaluation_genome/get_chain_file/forward.chain' --rev_out '../../../data/genome/03_evaluation_genome/get_chain_file/reverse.chain' '../../../data/genome/03_evaluation_genome/sequence_old_genome/NewRefToOldRef.delta'
 ```
 
+# mummer for chain file
+```bash
+nucmer -p NewRefToOldRef \
+/home/student/projects/asp-pan-genome-evy/refseq/AsparagusCHR_V1.1.fa -l 50 -c 100 \
+/home/student/projects/asp-pan-genome-evy/data/genome/02_deNovoAssembly/superScaffolds/findUnplaced/100verplaatsingenMetUnplaced.fa
+```
+
 # getting bed file gaps
 getting bed file gaps
 ```bash
