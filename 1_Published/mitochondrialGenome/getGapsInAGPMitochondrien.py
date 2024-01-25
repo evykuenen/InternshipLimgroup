@@ -11,6 +11,7 @@ Date: 18-12-2023
 import csv
 from collections import defaultdict
 
+
 def read_coord_file(coord_file):
     """
     Reads a coordinate file and extracts scaffold information.
@@ -33,7 +34,7 @@ def read_coord_file(coord_file):
             fields_final = [field.split(" | ") for field in fields]
             flat_fields_final = sum(fields_final, [])
             formatted_fields = [item.strip() for sublist in flat_fields_final for item in sublist.split()]
-            if int(formatted_fields[2]) > int(formatted_fields[3]): # get orientation
+            if int(formatted_fields[2]) > int(formatted_fields[3]):  # get orientation
                 data.append(formatted_fields[0])
                 data.append(formatted_fields[1])
                 data.append(formatted_fields[3])
@@ -66,6 +67,7 @@ def read_coord_file(coord_file):
             scaffoldorder.append(data)
     return scaffoldorder
 
+
 def get_best_contigs(scaffoldorder):
     """
     Consolidates scaffold data and selects scaffolds with the highest coverage and identity percentage.
@@ -83,7 +85,7 @@ def get_best_contigs(scaffoldorder):
         if float(row[10]): 
             tag = row[12]  # scaffold
             covq = float(row[10])  # COVQ-column
-            idy = float(row[6])  #  %IDY-column
+            idy = float(row[6])  # %IDY-column
             
             consolidated_data[tag].append((covq, idy, row))
 
@@ -98,6 +100,7 @@ def get_best_contigs(scaffoldorder):
         best_scaffolds.append(best_scaffold)
         processed_headers.add(tag)
     return best_scaffolds
+
 
 def group_data(best_scaffolds):
     """
@@ -117,6 +120,7 @@ def group_data(best_scaffolds):
         grouped_data[scaffold_name].append(item)
     return grouped_data
 
+
 def select_rows(grouped_data):
     """
     Selects rows with the highest coverage and identity percentage for each scaffold.
@@ -132,8 +136,9 @@ def select_rows(grouped_data):
     for scaffold_name, scaffold_data in grouped_data.items():
         max_coverage_row = max(scaffold_data, key=lambda x: float(x[10]))
         selected_rows.append(max_coverage_row)
-    selected_rows = sorted(selected_rows,key=lambda l:int(l[0]))
+    selected_rows = sorted(selected_rows, key=lambda l: int(l[0]))
     return selected_rows
+
 
 def get_longest_contigs(selected_rows):
     """
@@ -156,6 +161,7 @@ def get_longest_contigs(selected_rows):
         }
         longest_contigs.append(contig_info)
     return longest_contigs
+
 
 def filter_contigs(longest_contigs, selected_rows):
     """
@@ -193,6 +199,7 @@ def filter_contigs(longest_contigs, selected_rows):
             filteredOnMatchPercentage.append(line)
     return filteredOnMatchPercentage
 
+
 def get_info_from_agp(agp_file):
     """
     Reads information from an AGP file.
@@ -212,6 +219,7 @@ def get_info_from_agp(agp_file):
                 linelist.append(items)
             flyeAgplist.append(linelist)
     return flyeAgplist
+
 
 def compare_to_agp(flyeAgplist, filteredOnMatchPercentage):
     """
@@ -243,6 +251,7 @@ def compare_to_agp(flyeAgplist, filteredOnMatchPercentage):
                 finallinelist.append(item[13])
                 finallist.append(finallinelist)
     return finallist
+
 
 def put_gaps_in_agp(finallist):
     """
@@ -289,6 +298,7 @@ def write_to_file(output_with_gaps, output_file):
         writer = csv.writer(output_file, delimiter='\t')
         writer.writerows(output_with_gaps)
 
+
 def main():
     """
     Main function that orchestrates the execution of the entire process.
@@ -309,5 +319,6 @@ def main():
     output_with_gaps = put_gaps_in_agp(finallist)
     output_file = "../../../data/mitochondrien/contigsToMitochondrien/NewRefVsOldRef/orderedContigsWithOrientationMitochondrienRefSeqNoDoubles.agp"
     write_to_file(output_with_gaps, output_file)
+
 
 main()

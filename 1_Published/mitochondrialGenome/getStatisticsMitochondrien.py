@@ -8,6 +8,7 @@ Date: 18-12-2023
 """
 from Bio import SeqIO
 
+
 def calculate_gc_percentage(genome_filename):
     """
     Calculate the GC percentage of mitochondrial genome.
@@ -30,6 +31,7 @@ def calculate_gc_percentage(genome_filename):
     gc_percentage = ((num_G + num_C) / total_bases) * 100
 
     return gc_percentage
+
 
 def get_base_compositions(genome_filename):
     """
@@ -58,6 +60,7 @@ def get_base_compositions(genome_filename):
     print(f"a: {a_percentage}")
     print(f"t: {t_percentage}")
 
+
 def main():
     """
     Main function to execute the GC percentage calculation and base compositions.
@@ -68,5 +71,6 @@ def main():
     result = calculate_gc_percentage(genome_filename)
     get_base_compositions(genome_filename)
     print(f"GC percentage of the reference genome: {result:.2f}%")
+
 
 main()

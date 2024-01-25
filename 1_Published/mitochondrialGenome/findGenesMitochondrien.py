@@ -39,6 +39,7 @@ def parse_gff_file(gff_file):
 
     return gene_count, fragment_gene_count, genes_complete, genes_fragment
 
+
 def print_gene_counts(gene_count, fragment_gene_count, genes_complete, genes_fragment):
     """
     Print the counts and names of the genes.
@@ -57,9 +58,11 @@ def print_gene_counts(gene_count, fragment_gene_count, genes_complete, genes_fra
     print("Fragment genen:")
     print(genes_fragment)
 
+
 def main():
     gff_file = "../../../data/mitochondrien/GeseqResults/job-results-20231024143612/mitoAsparagus_mitochondrial_asparargusV2_GFF3.gff3"
     gene_count, fragment_gene_count, genes_complete, genes_fragment = parse_gff_file(gff_file)
     print_gene_counts(gene_count, fragment_gene_count, genes_complete, genes_fragment)
+
 
 main()

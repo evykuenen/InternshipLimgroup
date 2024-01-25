@@ -11,6 +11,7 @@ Date: 29-11-2023
 import csv
 from collections import defaultdict
 
+
 def read_mapinfo_file(file_path, skip_lines):
     """
     Reads the mapinfo file and returns all data from coord file.
@@ -33,10 +34,11 @@ def read_mapinfo_file(file_path, skip_lines):
             fields_final = [field.split(" | ") for field in fields]
             flat_fields_final = sum(fields_final, [])
             formatted_fields = [item.strip() for sublist in flat_fields_final for item in sublist.split()]
-            data = get_oriented_data(formatted_fields)
+            data.append(formatted_fields)
             scaffoldorder.append(data)
 
     return scaffoldorder
+
 
 def get_oriented_data(formatted_fields):
     """
@@ -59,6 +61,7 @@ def get_oriented_data(formatted_fields):
         data.append("+")
     return data
 
+
 def consolidate_data(scaffoldorder):
     """
     Consolidates data based on coverage and percent identity.
@@ -78,6 +81,7 @@ def consolidate_data(scaffoldorder):
             consolidated_data[tag].append((covq, idy, row))
 
     return consolidated_data
+
 
 def get_best_scaffolds(consolidated_data):
     """
@@ -101,6 +105,7 @@ def get_best_scaffolds(consolidated_data):
 
     return best_scaffolds
 
+
 def get_grouped_data(best_scaffolds):
     """
     Groups data based on scaffold name.
@@ -119,6 +124,7 @@ def get_grouped_data(best_scaffolds):
         grouped_data[scaffold_name].append(item)
     return grouped_data
 
+
 def get_row_highest_cov_and_id(grouped_data):
     """
     Gets the row with the highest coverage and percent id for every contig.
@@ -134,10 +140,11 @@ def get_row_highest_cov_and_id(grouped_data):
         max_coverage_row = max(scaffold_data, key=lambda x: float(x[10]))
         selected_rows.append(max_coverage_row)
 
-    selected_rows = sorted(selected_rows,key=lambda l:int(l[0]))
+    selected_rows = sorted(selected_rows, key=lambda l: int(l[0]))
 
     print(len(selected_rows))
-    return(selected_rows)
+    return selected_rows
+
 
 def filter_longest_contigs(selected_rows):
     """
@@ -177,6 +184,7 @@ def filter_longest_contigs(selected_rows):
 
     return filtered_contigs
 
+
 def not_double_contigs(selected_rows, filtered_contigs):
     """
     Filter out double contigs based on their name.
@@ -212,6 +220,7 @@ def filter_on_match_percentage(notDoubleContigs):
             filteredOnMatchPercentage.append(line)
 
     return filteredOnMatchPercentage
+
 
 def read_flye_agp(file_path):
     """
@@ -256,6 +265,7 @@ def compare_and_append_agp_info(filteredOnMatchPercentage, flyeAgplist):
                 finallist.append(finallinelist)
     return finallist
 
+
 def write_to_output_file(output_file_path, data):
     """
     Write data to the output file.
@@ -267,6 +277,7 @@ def write_to_output_file(output_file_path, data):
     with open(output_file_path, "w") as output_file:
         writer = csv.writer(output_file, delimiter='\t')
         writer.writerows(data)
+
 
 def main():
     mapinfo_file_path = "../../../data/mitochondrien/contigsToMitochondrien/allContigstomitochondrien.coord"
@@ -284,5 +295,6 @@ def main():
     finallist = compare_and_append_agp_info(filteredOnMatchPercentage, flyeAgplist)
     output_file_path = "../../../data/mitochondrien/contigsToMitochondrien/contigsVsOldRef/orderedContigsWithOrientationMitochondrienAllContigsNoDoubles.agp"
     write_to_output_file(output_file_path, finallist)
+
 
 main()
